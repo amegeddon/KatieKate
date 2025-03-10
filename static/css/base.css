@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/homepage.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -28,12 +28,74 @@ body {
 }
 
 
-/* incorporte with my CTA button styling*/
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
+.hero {
+
+    height: 100vh;
+    /* This makes the hero section take up the full viewport height */
+
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    text-align: center;
+    /* Optional: Centers the text inside the content */
 }
+
+.hero-content {
+    position: absolute;
+    /* Absolute positioning to place content inside .hero */
+    bottom: 55%;
+    /* Move the content 10% up from the bottom of the parent container */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background-color: #FF6347;
+    /* Optional: Customize button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #FF4500;
+    /* Optional: Hover effect for the button */
+}
+
+/* About us section  */
+
+
+.about-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.about-section {
+    width: 40%;
+    /* This sets the width to one-third of the page */
+    margin: 0 auto;
+    /* This centers the content horizontally */
+    padding: 30px 15px;
+    /* Optional, adds some padding to the sides */
+    box-sizing: border-box;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+
 
 .btn-black {
     background: black;

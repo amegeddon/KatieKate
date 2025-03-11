@@ -157,7 +157,7 @@ a.category-badge>span.badge:hover {
     right: 10px;
 }
 
-.btt-link, .update_link, .remove_item {
+.btt-link, .update-link, .remove-item {
     cursor: pointer;
 }
 

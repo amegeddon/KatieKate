@@ -9,8 +9,8 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
-    query = None
     categories = None
+    query = None
     sort = None
     direction = None
 
@@ -31,10 +31,23 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
+        
+        # Handle filtering by category
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+
+            print("Filtered Categories:", categories)  # Debugging statement to see selected categories
+
+        # Handle search query
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(request, "You didn't enter any search criteria!")
+                return redirect(reverse('products'))
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            products = products.filter(queries)
 
         if 'q' in request.GET:
             query = request.GET['q']
@@ -46,6 +59,10 @@ def all_products(request):
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
+    
+    # Fetch all categories by default if `categories` is None after processing GET parameters
+    if categories is None:
+        categories = Category.objects.all()
 
     context = {
         'products': products,
@@ -54,7 +71,7 @@ def all_products(request):
         'current_sorting': current_sorting,
     }
     
-    print("Categories:", categories)
+    print("Context passed to template:", context)
 
     return render(request, 'products/products.html', context)
 

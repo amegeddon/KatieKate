@@ -147,6 +147,11 @@ a.category-badge>span.badge:hover {
     cursor: pointer;
 }
 
+.nav-link, .nav-link i {
+    cursor: pointer;  /* Ensures the hand cursor shows when hovering over the link -  */
+}
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

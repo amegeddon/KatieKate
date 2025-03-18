@@ -189,6 +189,25 @@ a.category-badge>span.badge:hover {
     overflow-y: auto;
 }
 
+
+/* ------will need adjusting across device sizes, prevents product name and price being hidden by navbar------ */
+.padding-top {
+    padding-top: 120px;
+}
+
+
+/* Ensures the image takes the full width of its container / fixes layout issues - will need adjusting across devices  */
+.product-img {
+    width: 100%;           
+    height: 250px;        
+    object-fit: cover;     
+    object-position: center; 
+}
+
+
+
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -196,6 +215,7 @@ a.category-badge>span.badge:hover {
     .container {
         max-width: 80%;
     }
+    
 }
 
 /* fixed top navbar only on medium and up */

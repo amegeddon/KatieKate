@@ -18,15 +18,27 @@
 
         <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
           {% csrf_token %}
-          {{ form|crispy }}
+          
+          <!-- Render form without labels but show placeholders -->
+          {% for field in form %}
+            <div class="form-group">
+              <div class="input-group">
+                {% if field.field.widget.attrs.placeholder %}
+                  <input type="{{ field.field.widget.input_type }}" 
+                         name="{{ field.name }}" 
+                         placeholder="{{ field.field.widget.attrs.placeholder }}" 
+                         class="form-control">
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+          
           {% if redirect_field_value %}
           <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
           {% endif %}
           
-          <!-- Back to Login Button -->
+        
           <a class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
-          
-          <!-- Submit Button with consistent classes -->
           <button class="btn btn-outline-black rounded-0" type="submit">{% trans "Sign Up" %}</button>
         </form>
       </div>
@@ -34,4 +46,3 @@
   </div>
 </div>
 {% endblock %}
-

@@ -161,7 +161,7 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 def special_offer_products(request, offer_name=None):
-    """ A view to filter products by special offers (e.g., new_arrivals, deals, clearance) """
+    """ A view to filter products by special offers (e.g., new_arrivals, deals, clearance) and allow sorting """
     
     # Initially fetch all products with a special offer assigned
     products = Product.objects.filter(special_offer__isnull=False)
@@ -176,13 +176,44 @@ def special_offer_products(request, offer_name=None):
         else:
             products = Product.objects.none()  # If no offer matches, show no products
 
+    # Sorting logic
+    sort = None
+    direction = 'asc'  # Default sorting direction is ascending
+    sortkey = 'name'   # Default sort key is by name
+    
+    if 'sort' in request.GET:
+        sort = request.GET['sort']
+        if sort == 'name':
+            sortkey = 'lower_name'
+            products = products.annotate(lower_name=Lower('name'))
+        elif sort == 'price':
+            sortkey = 'price'
+        elif sort == 'rating':
+            sortkey = 'rating'
+        elif sort == 'category':
+            sortkey = 'category__name'
+
+        # Direction handling
+        if 'direction' in request.GET:
+            direction = request.GET['direction']
+            if direction == 'desc':
+                sortkey = f'-{sortkey}'
+
+    # Apply sorting to the queryset
+    products = products.order_by(sortkey)
+    
     # Get all special offers for the sidebar or navigation
     special_offers = SpecialOffer.objects.all()
+
+    # Adding sorting info to the context
+    current_sorting = f'{sort}_{direction}'
 
     context = {
         'products': products,
         'special_offers': special_offers,
         'offer_name': offer_name,  # This will be None for the /special-offers/ path
+        'current_sorting': current_sorting,  # Pass current sorting info
     }
 
     return render(request, 'products/special_offer_products.html', context)
+

@@ -244,14 +244,31 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-/* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+/* ------product images------ */
+.product-img {
+    width: 100%;  /* Ensures image fills container width */
+    height: 250px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Removes any extra spacing below the image */
 }
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1; /* Ensures product name and other text align consistently */
+}
+
+.card-footer {
+    margin-top: auto; /* Pushes footer (price, category, rating) to the bottom */
+}
+
 
 /* Allauth form formatting */
 
@@ -335,6 +352,21 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+
+
+
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -361,5 +393,24 @@ input[name='q']::placeholder {
     }
     h2 {
         padding: 60px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) { /* Tablets */
+    .product-img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile devices */
+    .product-img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) { /* Small mobile screens */
+    .product-img {
+        height: 150px;
     }
 }

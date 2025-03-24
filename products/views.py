@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from .models import Product, Category
+from .models import Product, Category, SpecialOffer
 from django.db.models.functions import Lower
 from .forms import ProductForm
 
@@ -159,3 +159,30 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+def special_offer_products(request, offer_name=None):
+    """ A view to filter products by special offers (e.g., new_arrivals, deals, clearance) """
+    
+    # Initially fetch all products with a special offer assigned
+    products = Product.objects.filter(special_offer__isnull=False)
+    
+    # If a specific offer name is provided, filter products by that special offer
+    if offer_name:
+        special_offer = SpecialOffer.objects.filter(name=offer_name).first()
+        
+        if special_offer:
+            # Filter products based on the special offer
+            products = products.filter(special_offer=special_offer)
+        else:
+            products = Product.objects.none()  # If no offer matches, show no products
+
+    # Get all special offers for the sidebar or navigation
+    special_offers = SpecialOffer.objects.all()
+
+    context = {
+        'products': products,
+        'special_offers': special_offers,
+        'offer_name': offer_name,  # This will be None for the /special-offers/ path
+    }
+
+    return render(request, 'products/special_offer_products.html', context)

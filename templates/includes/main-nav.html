@@ -9,9 +9,7 @@
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-
             </div>
         </li>
 
@@ -36,11 +34,11 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
-            </div>
+                <a href="{% url 'special_offer_products' 'new_arrivals' %}" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'special_offer_products' 'deals' %}" class="dropdown-item">Deals</a>
+                <a href="{% url 'special_offer_products' 'clearance' %}" class="dropdown-item">Clearance</a>
+                <a href="{% url 'special_offer_list' %}" class="dropdown-item">All Specials</a>
+            </div>       
         </li>
     </ul>
 </div>

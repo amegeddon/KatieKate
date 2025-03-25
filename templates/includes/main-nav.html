@@ -19,11 +19,11 @@
                 Gallery
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="gallery-link">
-                <a href="" class="dropdown-item">Armchairs</a>
-                <a href="" class="dropdown-item">Sofas</a>
-                <a href="" class="dropdown-item">Soft furnishings</a>
-                <a href="" class="dropdown-item">Curtains & Blinds</a>
-                <a href="" class="dropdown-item">All Products</a>
+                 <a href="{% url 'gallery' %}?category=armchairs" class="dropdown-item">Armchairs</a>
+                <a href="{% url 'gallery' %}?category=sofas" class="dropdown-item">Sofas</a>
+                <a href="{% url 'gallery' %}?category=soft_furnishings" class="dropdown-item">Soft furnishings</a>
+                <a href="{% url 'gallery' %}?category=curtains_blinds" class="dropdown-item">Curtains & Blinds</a>
+                <a href="{% url 'gallery' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 

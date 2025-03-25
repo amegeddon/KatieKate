@@ -175,6 +175,14 @@ def special_offer_products(request, offer_name=None):
             products = products.filter(special_offer=special_offer)
         else:
             products = Product.objects.none()  # If no offer matches, show no products
+            
+              # Handle filtering by category
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            products = products.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
+            print("Filtered Categories:", categories)  # Debugging statement to see selected categories
 
     # Sorting logic
     sort = None

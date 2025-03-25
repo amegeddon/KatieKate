@@ -12,6 +12,8 @@ class ProductAdmin(admin.ModelAdmin):
         'image',
     )
     ordering = ('sku',)
+    
+    
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
@@ -24,6 +26,7 @@ class CategoryAdmin(admin.ModelAdmin):
 class SpecialOfferAdmin(admin.ModelAdmin):
     list_display = ('name',)
     search_fields = ('name',)
+    
 
 # Register models to the admin interface
 admin.site.register(Product, ProductAdmin)

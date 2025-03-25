@@ -8,5 +8,5 @@ urlpatterns = [
     path('edit/<int:product_id>/', views.edit_product, name='edit_product'),
     path('delete/<int:product_id>/', views.delete_product, name='delete_product'),
     path('special-offers/', views.special_offer_products, name='special_offer_list'),
-    path('special-offers/<str:offer_name>/', views.special_offer_products, name='special_offer_products'),  # Filter by special offer
+    path('special-offers/<str:offer_name>/', views.special_offer_products, name='special_offer_products'),# Filter by special offer
 ]

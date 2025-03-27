@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay content-wrapper"></div>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+            <!-- Full view of the image -->
+            <div class="gallery-image-container text-center">
+                <img class="img-fluid" src="{{ current_image.image.url }}" alt="{{ current_image.name }}" style="max-width: 100%; max-height: 80vh; object-fit: contain;">
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="navigation-buttons text-center mt-4">
+                {% if prev_image %}
+                    <a href="{% url 'gallery_full_view' prev_image.id %}" class="btn btn-primary">Previous</a>
+                {% endif %}
+
+                {% if next_image %}
+                    <a href="{% url 'gallery_full_view' next_image.id %}" class="btn btn-primary">Next</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% endblock %}

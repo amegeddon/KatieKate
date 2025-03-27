@@ -152,3 +152,22 @@ def delete_gallery_image(request, image_id):
     image.delete()
     messages.success(request, 'Gallery image deleted!')
     return redirect(reverse('gallery'))  
+
+
+
+def gallery_full_view(request, image_id):
+    """ A view to display an individual image in full view with next/previous navigation """
+
+    current_image = get_object_or_404(GalleryImage, pk=image_id)
+    
+
+    prev_image = GalleryImage.objects.filter(id__lt=current_image.id).last()
+    next_image = GalleryImage.objects.filter(id__gt=current_image.id).first()
+
+    context = {
+        'current_image': current_image,
+        'prev_image': prev_image,
+        'next_image': next_image,
+    }
+
+    return render(request, 'gallery/gallery_full_view.html', context)

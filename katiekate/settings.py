@@ -27,7 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
+
 
 ALLOWED_HOSTS = [
     "katiekate-729242823673.herokuapp.com", 
@@ -65,6 +67,7 @@ INSTALLED_APPS = [
     'django_countries',
     'storages',
     'bootstrap4',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +83,9 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'katiekate.urls'
 
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 TEMPLATES = [
     {

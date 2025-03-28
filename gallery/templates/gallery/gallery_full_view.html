@@ -1,59 +1,46 @@
 {% extends "base.html" %}
- {% load static %}
- 
- {% block page_header %}
- <div class="container header-container">
-     <div class="row">
-         <div class="col"></div>
-     </div>
- </div>
- {% endblock %}
- 
- {% block content %}
- <div class="overlay content-wrapper"></div>
- <div class="container-fluid">
- <div class="container-fluid mt-lg-5 pt-lg-5">
-     <div class="row justify-content-center">
-         <div class="col-12 col-md-8 col-lg-6">
-             <!-- Full view of the image -->
-             <div class="gallery-image-container text-center">
-                 <img class="img-fluid" src="{{ current_image.image.url }}" alt="{{ current_image.name }}" style="max-width: 100%; max-height: 80vh; object-fit: contain;">
-             <div class="gallery-image-container text-center mb-4" style="position: relative; height: 80vh; width: 100%; overflow: hidden;">
-                 <img class="img-fluid" src="{{ current_image.image.url }}" alt="{{ current_image.name }}" 
-                      style="object-fit: contain; max-height: 100%; width: 100%; display: block; margin: 0 auto;">
-             </div>
- 
-             <!-- Navigation Buttons -->
-             <div class="navigation-buttons text-center mt-4">
-                 {% if prev_image %}
-                     <a href="{% url 'gallery_full_view' prev_image.id %}" class="btn btn-primary">Previous</a>
-                 {% endif %}
- 
-                 {% if next_image %}
-                     <a href="{% url 'gallery_full_view' next_image.id %}" class="btn btn-primary">Next</a>
-                 {% endif %}
-                 <div style="display: flex; justify-content: center; gap: 10px; width: 100%;">
-                     {% if prev_image %}
-                         <a href="{% url 'gallery_full_view' prev_image.id %}" 
-                            class="btn btn-black rounded-0 d-inline-block w-25 text-center">
-                             Previous
-                         </a>
-                     {% endif %}
-             
-                     {% if next_image %}
-                         <a href="{% url 'gallery_full_view' next_image.id %}" 
-                            class="btn btn-black rounded-0 d-inline-block w-25 text-center">
-                             Next
-                         </a>
-                     {% endif %}
-                 </div>
-             </div>
-         </div>
-     </div>
- </div>
- </div>
- {% endblock %}
- 
- {% block postloadjs %}
- {{ block.super }}
- {% endblock %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay content-wrapper"></div>
+<div class="container-fluid">
+    <div class="container-fluid mt-lg-5 pt-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <!-- Full view of the image -->
+                <div class="gallery-image-container text-center" style="position: relative; height: 80vh; width: 100%; overflow: hidden;">
+                    <img class="img-fluid" src="{{ current_image.image.url }}" alt="{{ current_image.name }}" 
+                         style="object-fit: contain; max-height: 100%; width: 100%; display: block; margin: 0 auto;">
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="text-center mt-4" style="display: flex; justify-content: center; gap: 10px;">
+                    {% if prev_image %}
+                        <a href="{% url 'gallery_full_view' prev_image.id %}" class="btn btn-black rounded-0 d-inline-block w-25 text-center">
+                            Previous
+                        </a>
+                    {% endif %}
+                    
+                    {% if next_image %}
+                        <a href="{% url 'gallery_full_view' next_image.id %}" class="btn btn-black rounded-0 d-inline-block w-25 text-center">
+                            Next
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% endblock %}

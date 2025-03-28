@@ -30,7 +30,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ["katiekate-729242823673.herokuapp.com"]
+ALLOWED_HOSTS = [
+    "katiekate-729242823673.herokuapp.com", 
+    '127.0.0.1',  # for local development or VS Code preview
+    'localhost',  # for local development, like listening for Stripe webhooks
+]
+
 
 
 

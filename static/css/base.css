@@ -8,28 +8,30 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato', Arial, sans-serif;
+}
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 .hero {
 
     height: 100vh;
-    /* This makes the hero section take up the full viewport height */
-
     display: flex;
     justify-content: center;
-    /* Horizontally center */
     align-items: center;
-    /* Vertically center */
     text-align: center;
-    /* Optional: Centers the text inside the content */
 }
 
 .hero-content {
     position: absolute;
-    /* Absolute positioning to place content inside .hero */
     bottom: 55%;
-    /* Move the content 10% up from the bottom of the parent container */
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -47,37 +49,7 @@ body {
 
 .cta-button:hover {
     background-color: #FF4500;
-    /* Optional: Hover effect for the button */
 }
-
-/* About us section  */
-
-
-.about-title {
-    font-size: 2.5rem;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-    padding-top: 30px;
-}
-
-.about-section {
-    width: 40%;
-    /* This sets the width to one-third of the page */
-    margin: 0 auto;
-    /* This centers the content horizontally */
-    padding: 30px 15px;
-    /* Optional, adds some padding to the sides */
-    box-sizing: border-box;
-}
-
-.about-text {
-    font-size: 1.2rem;
-    color: #555;
-    text-align: justify;
-    padding: 0 15px;
-}
-
 
 
 
@@ -98,11 +70,8 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
+
+/* Buttons */
 
 .btn-black {
     background: black;
@@ -144,16 +113,6 @@ body {
     background: #000 !important;
 }
 
-.overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
-}
-
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
@@ -177,7 +136,7 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* ------------------------------- bootstrap toasts */
+/* bootstrap toasts */
 
 .message-container {
     position: fixed;
@@ -246,12 +205,12 @@ input[name='q']::placeholder {
 }
 
 
-/* ------product images------ */
+/* ------product images and Cards------ */
 .product-img {
-    width: 100%;  /* Ensures image fills container width */
-    height: 250px; /* Fixed height for consistency */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    display: block; /* Removes any extra spacing below the image */
+    width: 100%;  
+    height: 250px;
+    object-fit: cover; 
+    display: block; 
 }
 
 

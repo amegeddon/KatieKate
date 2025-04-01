@@ -13,7 +13,7 @@ class Category(models.Model):
     
 class SpecialOffer(models.Model):
     name = models.CharField(max_length=50, unique=True)
-    friendly_name = models.CharField(max_length=100, null=True, blank=True)  # New field for a user-friendly name
+    friendly_name = models.CharField(max_length=100, null=True, blank=True) 
 
     def __str__(self):
         return self.friendly_name if self.friendly_name else self.name  

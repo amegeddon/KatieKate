@@ -151,7 +151,7 @@ KatieKate&Co was created as my fourth and final milestone project for the Code I
     <tbody>
     <tr>
       <td>User</td>
-      <td>Easily select the size and quantity of a product when purchasing it</td>
+      <td>Easily select and add to bag the correct product and quantit</td>
       <td>Make sure I don’t mistakenly choose the wrong product or quantity.</td>
     </tr>
     <tr>
@@ -200,11 +200,6 @@ KatieKate&Co was created as my fourth and final milestone project for the Code I
       <td>Instantly see if my basket contains any items</td>
     </tr>
     <tr>
-      <td>User</td>
-      <td>Be informed if the store doesn't have enough stock to fulfill the amount I need</td>
-      <td>Only order the amounts currently available so as not to cause any delays with my order or have to deal with   refunds later on in the sale cycle</td>
-    </tr>
-    <tr>
       <td>Shopper</td>
       <td>Checkout without needing to register for an account</td>
       <td>Complete my purchase quickly and easily without creating an account</td>
@@ -233,9 +228,20 @@ KatieKate&Co was created as my fourth and final milestone project for the Code I
     </tr>
     <tr>
       <td>Store Owner/Staff Member</td>
-      <td>Manage Stock levels</td>
-      <td>Keep track of available inventory</td>
+      <td>Add a Gallery item to Gallery collection</td>
+      <td>Easily add new Gallery items to the store</td>
     </tr>
+    <tr>
+      <td>Store Owner/Staff Member</td>
+      <td>Edit/Update a Gallery Item</td>
+      <td>Easily modify gallery name, description or image within gallery management view</td>
+    </tr>
+    <tr>
+      <td>Store Owner/Staff Member</td>
+      <td>Delete a gallery item</td>
+      <td>Remove gallery item if necessary</td>
+    </tr>
+    
   </tbody>
 </table>
 

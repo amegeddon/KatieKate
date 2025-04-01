@@ -129,10 +129,10 @@
 <script type="text/javascript">
     // Update quantity on click
     $('.update-link').click(function(e) {
-        e.preventDefault(); // Prevent default anchor behavior
-        var form = $(this).prev('form.update-form'); // Find the preceding form
+        e.preventDefault(); 
+        var form = $(this).prev('form.update-form'); 
 
-        // If prev() fails, try closest() to find the nearest form
+
         if (!form.length) {
             form = $(this).closest('.form').first();
         }

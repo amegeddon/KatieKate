@@ -129,9 +129,21 @@
 <script type="text/javascript">
     // Update quantity on click
     $('.update-link').click(function(e) {
-        var form = $(this).prev('.update-form');
-        form.submit();
-    })
+        e.preventDefault(); // Prevent default anchor behavior
+        var form = $(this).prev('form.update-form'); // Find the preceding form
+
+        // If prev() fails, try closest() to find the nearest form
+        if (!form.length) {
+            form = $(this).closest('.form').first();
+        }
+
+        if (form.length) {
+            form.submit();
+        } else {
+            console.error("Form not found.");
+        }
+    });
+
 
     // Remove item and reload on click
     $('.remove-item').click(function(e) {

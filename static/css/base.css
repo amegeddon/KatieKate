@@ -475,6 +475,10 @@ input[name='q']::placeholder {
         padding: 30px; 
     }
 
+    .hero h1 {
+        padding-top: 100px;
+    }
+
     /* Make sure text doesn't overflow */
     .hero h1, .hero h2, .hero p {
         word-wrap: break-word;

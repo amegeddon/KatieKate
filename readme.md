@@ -167,314 +167,82 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 - Fully responsive across all screen sizes.
 
-<table>
-    <thead>
-        <tr>
-            <th colspan="2">Desktop</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Welcome page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of welcome screen on laptop"></td>
-        </tr>
-        <tr>
-            <td>Products page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of products page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Product details page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Gallery page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-         <tr>
-            <td>Gallery details page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-         <tr>
-            <td>Gallery image full page view</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Shopping bag page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of shopping bag page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout success page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout success page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Profile page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of profile page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Profile page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of profile page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Product management page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product management page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Add product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of add product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Add product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of add product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Edit product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of edit product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Login page</td>
-            <td><img height=300 src="" alt="Screenshot of login page laptop">
-            </td>
-        </tr>
-        <tr>
-            <td>Logout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of logout page laptop"></td>
-        </tr>
-        <tr>
-            <td>Register page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of register page laptop"></td>
-        </tr>
-    </tbody>
-    <thead>
-        <tr>
-            <th colspan="2">Tablet</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Welcome page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of welcome screen on laptop"></td>
-        </tr>
-        <tr>
-            <td>Products page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of products page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Product details page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Gallery page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-         <tr>
-            <td>Gallery details page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-         <tr>
-            <td>Gallery image full page view</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Shopping bag page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of shopping bag page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout success page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout success page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Profile page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of profile page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Profile page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of profile page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Product management page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product management page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Add product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of add product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Add product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of add product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Edit product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of edit product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Login page</td>
-            <td><img height=300 src="" alt="Screenshot of login page laptop">
-            </td>
-        </tr>
-        <tr>
-            <td>Logout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of logout page laptop"></td>
-        </tr>
-        <tr>
-            <td>Register page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of register page laptop"></td>
-        </tr>
-    </tbody>
-    <thead>
-        <tr>
-            <th colspan="2">Mobile</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Welcome page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of welcome screen on laptop"></td>
-        </tr>
-        <tr>
-            <td>Products page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of products page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Product details page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Gallery page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-         <tr>
-            <td>Gallery details page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-         <tr>
-            <td>Gallery image full page view</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Shopping bag page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of shopping bag page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Checkout success page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of checkout success page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Profile page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of profile page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Profile page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of profile page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Product management page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of product management page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Add product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of add product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Add product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of add product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Edit product page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of edit product page on laptop"></td>
-        </tr>
-        <tr>
-            <td>Login page</td>
-            <td><img height=300 src="" alt="Screenshot of login page laptop">
-            </td>
-        </tr>
-        <tr>
-            <td>Logout page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of logout page laptop"></td>
-        </tr>
-        <tr>
-            <td>Register page</td>
-            <td><img height=300 src=""
-                    alt="Screenshot of register page laptop"></td>
-        </tr>
-    </tbody>
-</table>
+<### Desktop
+
+| Page                         | Screenshot                                                                 |
+|------------------------------|---------------------------------------------------------------------------|
+| Welcome page                  | ![Screenshot of welcome screen on laptop](your-image-path-here)           |
+| Products page                 | ![Screenshot of products page on laptop](your-image-path-here)            |
+| Product details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery page                  | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery image full page view  | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop](your-image-path-here)        |
+| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
+| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop](your-image-path-here)    |
+| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Product management page       | ![Screenshot of product management page on laptop](your-image-path-here)  |
+| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Edit product page             | ![Screenshot of edit product page on laptop](your-image-path-here)        |
+| Login page                    | ![Screenshot of login page laptop](your-image-path-here)                  |
+| Logout page                   | ![Screenshot of logout page laptop](your-image-path-here)                 |
+| Register page                 | ![Screenshot of register page laptop](your-image-path-here)               |
+
+---
+
+### Tablet
+
+| Page                         | Screenshot                                                                 |
+|------------------------------|---------------------------------------------------------------------------|
+| Welcome page                  | ![Screenshot of welcome screen on laptop](your-image-path-here)           |
+| Products page                 | ![Screenshot of products page on laptop](your-image-path-here)            |
+| Product details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery page                  | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery image full page view  | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop](your-image-path-here)        |
+| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
+| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop](your-image-path-here)    |
+| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Product management page       | ![Screenshot of product management page on laptop](your-image-path-here)  |
+| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Edit product page             | ![Screenshot of edit product page on laptop](your-image-path-here)        |
+| Login page                    | ![Screenshot of login page laptop](your-image-path-here)                  |
+| Logout page                   | ![Screenshot of logout page laptop](your-image-path-here)                 |
+| Register page                 | ![Screenshot of register page laptop](your-image-path-here)               |
+
+---
+
+### Mobile
+
+| Page                         | Screenshot                                                                 |
+|------------------------------|---------------------------------------------------------------------------|
+| Welcome page                  | ![Screenshot of welcome screen on laptop](your-image-path-here)           |
+| Products page                 | ![Screenshot of products page on laptop](your-image-path-here)            |
+| Product details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery page                  | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Gallery image full page view  | ![Screenshot of product details page on laptop](your-image-path-here)     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop](your-image-path-here)        |
+| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
+| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop](your-image-path-here)    |
+| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Product management page       | ![Screenshot of product management page on laptop](your-image-path-here)  |
+| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Edit product page             | ![Screenshot of edit product page on laptop](your-image-path-here)        |
+| Login page                    | ![Screenshot of login page laptop](your-image-path-here)                  |
+| Logout page                   | ![Screenshot of logout page laptop](your-image-path-here)                 |
+| Register page                 | ![Screenshot of register page laptop](your-image-path-here)               |
+
 
 <hr>
 

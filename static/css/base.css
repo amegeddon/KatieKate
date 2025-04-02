@@ -466,8 +466,9 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
     .hero {
-        height: 80vh; 
+        height: 70vh; 
         padding: 20px, 20px; 
+        position: relative !important;
     }
 
     .hero-content { 
@@ -486,3 +487,4 @@ input[name='q']::placeholder {
         overflow-wrap: break-word; 
     }
 }
+

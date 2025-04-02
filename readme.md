@@ -117,8 +117,8 @@ For further information on these guidelines, you can visit the following link. [
 
 - ##### Colour Palette and Results
     - Text Colour 1 - [Coolors Contrast Checker](https://coolors.co/contrast-checker/084298-ffffff)<br>
-    ![Contrast check of text colour 1 against Linen warm white background](colour-check.png)
-    ![Contrast check of text colour 2 against Linen warm white background](colour-check1.png)
+    ![Contrast check of text colour 1 against Linen warm white background](images/colour-check.png)
+    ![Contrast check of text colour 2 against Linen warm white background](images/colour-check1.png)
 
 
 #### Typography
@@ -171,24 +171,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop](l-welcome.png)           |
-| Products page                 | ![Screenshot of products page on laptop](l-products.png)            |
-| Product details page          | ![Screenshot of product details page on laptop](l-product-detail.png)     |
-| Gallery page                  | ![Screenshot of gallery page on laptop](l-gallery.png)     |
-| Gallery details page          | ![Screenshot of gallery details page on laptop](l-gallery-detail.png)     |
-| Gallery image full page view  | ![Screenshot of gallery details page on laptop](l-gallery-fullview.png)     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop](l-shopping-bag.png)        |
-| Checkout page                 | ![Screenshot of checkout page on laptop](L-checkout.png)            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop](l-checkoutSuccess.png)    |
-| Profile page                  | ![Screenshot of profile page on laptop](l-profile.png)             |
-| Add product page       | ![Screenshot of product management page on laptop](l-productManagemenetAdd.png)  |
-| Product Management page             | ![Screenshot of add product page on laptop](l-productManagement.png)         |
-| Edit product page            | ![Screenshot of add product page on laptop](l-product-add.png)         |
-| Add Gallery Item page         | ![Screenshot of edit product page on laptop](l-galleryManagementAdd.png)        |
-| Edit Gallery Item page             | ![Screenshot of edit product page on laptop](l-galleryManagementEdit.png)        |
-| Login page                    | ![Screenshot of login page laptop](L-sign_in.png)                  |
-| Logout page                   | ![Screenshot of logout page laptop](l-signOut.png)                 |
-| Register page                 | ![Screenshot of register page laptop](l-signnup.png)               |
+| Welcome page                  | ![Screenshot of welcome screen on laptop](images/l-welcome.png)           |
+| Products page                 | ![Screenshot of products page on laptop](images/l-products.png)            |
+| Product details page          | ![Screenshot of product details page on laptop](images/l-product-detail.png)     |
+| Gallery page                  | ![Screenshot of gallery page on laptop](images/l-gallery.png)     |
+| Gallery details page          | ![Screenshot of gallery details page on laptop](images/l-gallery-detail.png)     |
+| Gallery image full page view  | ![Screenshot of gallery details page on laptop](images/l-gallery-fullview.png)     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop](images/l-shopping-bag.png)        |
+| Checkout page                 | ![Screenshot of checkout page on laptop](images/L-checkout.png)            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop](images/l-checkoutSuccess.png)    |
+| Profile page                  | ![Screenshot of profile page on laptop](images/l-profile.png)             |
+| Add product page       | ![Screenshot of product management page on laptop](images/l-productManagemenetAdd.png)  |
+| Product Management page             | ![Screenshot of add product page on laptop](images/l-productManagement.png)         |
+| Edit product page            | ![Screenshot of add product page on laptop](images/l-product-add.png)         |
+| Add Gallery Item page         | ![Screenshot of edit product page on laptop](images/l-galleryManagementAdd.png)        |
+| Edit Gallery Item page             | ![Screenshot of edit product page on laptop](images/l-galleryManagementEdit.png)        |
+| Login page                    | ![Screenshot of login page laptop](images/L-sign_in.png)                  |
+| Logout page                   | ![Screenshot of logout page laptop](images/l-signOut.png)                 |
+| Register page                 | ![Screenshot of register page laptop](images/l-signnup.png)               |
 
 ---
 

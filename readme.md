@@ -196,25 +196,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop](your-image-path-here)           |
-| Products page                 | ![Screenshot of products page on laptop](your-image-path-here)            |
-| Product details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery page                  | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery image full page view  | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop](your-image-path-here)        |
-| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
-| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop](your-image-path-here)    |
-| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
-| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
-| Product management page       | ![Screenshot of product management page on laptop](your-image-path-here)  |
-| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
-| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
-| Edit product page             | ![Screenshot of edit product page on laptop](your-image-path-here)        |
-| Login page                    | ![Screenshot of login page laptop](your-image-path-here)                  |
-| Logout page                   | ![Screenshot of logout page laptop](your-image-path-here)                 |
-| Register page                 | ![Screenshot of register page laptop](your-image-path-here)               |
+| Welcome page                  | ![Screenshot of welcome screen on laptop]()           |
+| Products page                 | ![Screenshot of products page on laptop]()            |
+| Product details page          | ![Screenshot of product details page on laptop]()     |
+| Gallery page                  | ![Screenshot of gallery page on laptop]()     |
+| Gallery details page          | ![Screenshot of gallery details page on laptop]()     |
+| Gallery image full page view  | ![Screenshot of gallery details page on laptop]()     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop]()        |
+| Checkout page                 | ![Screenshot of checkout page on laptop]()            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop]()    |
+| Profile page                  | ![Screenshot of profile page on laptop]()             |
+| Add product page       | ![Screenshot of product management page on laptop]()  |
+| Product Management page             | ![Screenshot of add product page on laptop]()         |
+| Edit product page            | ![Screenshot of add product page on laptop]()         |
+| Add Gallery Item page         | ![Screenshot of edit product page on laptop]()        |
+| Edit Gallery Item page             | ![Screenshot of edit product page on laptop]()        |
+| Login page                    | ![Screenshot of login page laptop]()                  |
+| Logout page                   | ![Screenshot of logout page laptop]()                 |
+| Register page                 | ![Screenshot of register page laptop]()               |
 
 ---
 
@@ -222,25 +221,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop](your-image-path-here)           |
-| Products page                 | ![Screenshot of products page on laptop](your-image-path-here)            |
-| Product details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery page                  | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery image full page view  | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop](your-image-path-here)        |
-| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
-| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop](your-image-path-here)    |
-| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
-| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
-| Product management page       | ![Screenshot of product management page on laptop](your-image-path-here)  |
-| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
-| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
-| Edit product page             | ![Screenshot of edit product page on laptop](your-image-path-here)        |
-| Login page                    | ![Screenshot of login page laptop](your-image-path-here)                  |
-| Logout page                   | ![Screenshot of logout page laptop](your-image-path-here)                 |
-| Register page                 | ![Screenshot of register page laptop](your-image-path-here)               |
+| Welcome page                  | ![Screenshot of welcome screen on laptop]()           |
+| Products page                 | ![Screenshot of products page on laptop]()            |
+| Product details page          | ![Screenshot of product details page on laptop]()     |
+| Gallery page                  | ![Screenshot of gallery page on laptop]()     |
+| Gallery details page          | ![Screenshot of gallery details page on laptop]()     |
+| Gallery image full page view  | ![Screenshot of gallery details page on laptop]()     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop]()        |
+| Checkout page                 | ![Screenshot of checkout page on laptop]()            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop]()    |
+| Profile page                  | ![Screenshot of profile page on laptop]()             |
+| Add product page       | ![Screenshot of product management page on laptop]()  |
+| Product Management page             | ![Screenshot of add product page on laptop]()         |
+| Edit product page            | ![Screenshot of add product page on laptop]()         |
+| Add Gallery Item page         | ![Screenshot of edit product page on laptop]()        |
+| Edit Gallery Item page             | ![Screenshot of edit product page on laptop]()        |
+| Login page                    | ![Screenshot of login page laptop]()                  |
+| Logout page                   | ![Screenshot of logout page laptop]()                 |
+| Register page                 | ![Screenshot of register page laptop]()               |
 
 
 <hr>

@@ -13,6 +13,8 @@ from bag.contexts import bag_contents
 
 import stripe
 import json
+import os
+
 
 
 @require_POST
@@ -157,33 +159,62 @@ def checkout_success(request, order_number):
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
- 
+    if request.user.is_authenticated:
+        profile = UserProfile.objects.get(user=request.user)
+        # Attach the user's profile to the order
+        order.user_profile = profile
+        order.save()
+
+        # Save the user's info
+        if save_info:
+            profile_data = {
+                'default_phone_number': order.phone_number,
+                'default_country': order.country,
+                'default_postcode': order.postcode,
+                'default_town_or_city': order.town_or_city,
+                'default_street_address1': order.street_address1,
+                'default_street_address2': order.street_address2,
+                'default_county': order.county,
+            }
+            user_profile_form = UserProfileForm(profile_data, instance=profile)
+            if user_profile_form.is_valid():
+                user_profile_form.save()
+
+    messages.success(request, f'Order successfully processed! \
+        Your order number is {order_number}. A confirmation \
+        email will be sent to {order.email}.')
+
+    if 'bag' in request.session:
+        del request.session['bag']
+
+    template = 'checkout/checkout_success.html'
+    context = {
+        'order': order,
+    }
+
+
+    # Read the subject and body from the confirmation email files
+    subject_file_path = os.path.join(settings.BASE_DIR, 'confirmation_email_subject.txt')
+    body_file_path = os.path.join(settings.BASE_DIR, 'confirmation_email_body.txt')
+
+    # Read the content from the subject and body files
+    try:
+        with open(subject_file_path, 'r') as subject_file:
+            email_subject = subject_file.read().strip()
+        
+        with open(body_file_path, 'r') as body_file:
+            email_body = body_file.read().strip()
+    except FileNotFoundError:
+        email_subject = f'Order Confirmation - {order_number}'
+        email_body = f'Hi {order.full_name},\n\nThank you for your order! Your order number is {order_number}. We are processing your order and will update you when it ships.'
+
     email_message = EmailMessage(
-        subject=f'Order Confirmation - {order_number}',
-        body=f'Hi {order.full_name},\n\n'
-             f'Thank you for your order! Your order number is {order_number}. '
-             f'We are processing your order and will update you when it ships.',
+        subject=email_subject,
+        body=email_body,
         from_email=settings.DEFAULT_FROM_EMAIL, 
-        to=[order.email], 
+        to=[order.email],
     )
 
     email_message.send()
-
-    if request.user.is_authenticated:
-        profile = UserProfile.objects.get(user=request.user)
-        order.user = profile
-        order.save()
-
-        if save_info:
-            profile.default_phone_number = order.phone_number
-            profile.default_country = order.country
-            profile.default_postcode = order.postcode
-            profile.default_town_or_city = order.town_or_city
-            profile.default_street_address1 = order.street_address1
-            profile.default_street_address2 = order.street_address2
-            profile.default_county = order.county
-            profile.save()
-
-    messages.success(request, f'Order successfully processed! Your order number is {order_number}. A confirmation email has been sent to {order.email}.')
 
     return render(request, 'checkout/checkout_success.html', {'order': order})

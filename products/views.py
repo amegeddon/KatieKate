@@ -10,8 +10,13 @@ from .forms import ProductForm
 # Create your views here.
 
 def all_products(request):
-    """ A view to show all products, including sorting and search queries """
+    """
+    A view to show all products, including sorting and search queries.
 
+    This view handles displaying all products with options for sorting by name
+    or category, filtering by categories, and performing a search query on
+    product names or descriptions.
+    """
     products = Product.objects.all()
     categories = None
     query = None
@@ -19,6 +24,7 @@ def all_products(request):
     direction = None
 
     if request.GET:
+        # Handle sorting
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             sort = sortkey
@@ -35,14 +41,11 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
-        
         # Handle filtering by category
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-
-            print("Filtered Categories:", categories)  # Debugging statement to see selected categories
 
         # Handle search query
         if 'q' in request.GET:
@@ -53,17 +56,8 @@ def all_products(request):
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
-        if 'q' in request.GET:
-            query = request.GET['q']
-            if not query:
-                messages.error(request, "You didn't enter any search criteria!")
-                return redirect(reverse('products'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
-            products = products.filter(queries)
-
     current_sorting = f'{sort}_{direction}'
-    
+
     # Fetch all categories by default if `categories` is None after processing GET parameters
     if categories is None:
         categories = Category.objects.all()
@@ -74,15 +68,17 @@ def all_products(request):
         'current_categories': categories,
         'current_sorting': current_sorting,
     }
-    
-    print("Context passed to template:", context)
 
     return render(request, 'products/products.html', context)
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
+    """
+    A view to show individual product details.
 
+    This view handles the display of a single product's details based on
+    the product ID.
+    """
     product = get_object_or_404(Product, pk=product_id)
 
     context = {
@@ -94,12 +90,16 @@ def product_detail(request, product_id):
 
 @login_required
 def add_product(request):
-    """ Add a product to the store """
+    """
+    Add a product to the store.
+
+    This view allows store owners to add new products to the store. It requires
+    the user to be logged in and have store owner (superuser) permissions.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
@@ -110,7 +110,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -121,7 +121,12 @@ def add_product(request):
 
 @login_required
 def edit_product(request, product_id):
-    """ Edit a product in the store """
+    """
+    Edit a product in the store.
+
+    This view allows store owners to edit an existing product. It requires
+    the user to be logged in and have store owner (superuser) permissions.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -150,7 +155,12 @@ def edit_product(request, product_id):
 
 @login_required
 def delete_product(request, product_id):
-    """ Delete a product from the store """
+    """
+    Delete a product from the store.
+
+    This view allows store owners to delete a product from the store. It requires
+    the user to be logged in and have store owner (superuser) permissions.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -160,35 +170,37 @@ def delete_product(request, product_id):
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
 
-def special_offer_products(request, offer_name=None):
-    """ A view to filter products by special offers (e.g., new_arrivals, deals, clearance) and allow sorting """
 
-    # Initially fetch all products with a special offer assigned
+def special_offer_products(request, offer_name=None):
+    """
+    A view to filter products by special offers (e.g., new_arrivals, deals, clearance)
+    and allow sorting.
+
+    This view displays products associated with special offers, with options
+    for filtering by category, search queries, and sorting.
+    """
     products = Product.objects.filter(special_offer__isnull=False)
-    
-    # If a specific offer name is provided, filter products by that special offer
+
     if offer_name:
         special_offer = SpecialOffer.objects.filter(name=offer_name).first()
-        
+
         if special_offer:
-            # Filter products based on the special offer
             products = products.filter(special_offer=special_offer)
         else:
             products = Product.objects.none()  # If no offer matches, show no products
 
-    # Categories handling (same as in the product view)
     categories = None
     query = None
     sort = None
     direction = 'asc'  # Default sorting direction is ascending
     sortkey = 'name'   # Default sort key is by name
-    
+
     if request.GET:
         # Handle sorting by different criteria
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             sort = sortkey
-            
+
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
@@ -201,42 +213,37 @@ def special_offer_products(request, offer_name=None):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
 
-        # Handle filtering by category (same as in the product view)
+        # Handle filtering by category
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
-        # Handle search query (same as in the product view)
+        # Handle search query
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
-                return redirect(reverse('special_offer_products', args=[offer_name]))  # Keep the offer_name in the redirect
+                return redirect(reverse('special_offer_products', args=[offer_name]))
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
-    # Apply sorting to the queryset
     products = products.order_by(sortkey)
 
-    # Get all special offers for the sidebar or navigation (same as in the product view)
     special_offers = SpecialOffer.objects.all()
 
-    # Prepare the current sorting for the template
     current_sorting = f'{sort}_{direction}'
 
-    # Fetch all categories by default if `categories` is None after processing GET parameters
     if categories is None:
         categories = Category.objects.all()
 
-    # Context data to pass to the template
     context = {
         'products': products,
         'special_offers': special_offers,
-        'offer_name': offer_name,  # This will be None for the /special-offers/ path
-        'current_sorting': current_sorting,  # Pass current sorting info
+        'offer_name': offer_name,
+        'current_sorting': current_sorting,
         'search_term': query,
-        'current_categories': categories,  # Display the categories filter
+        'current_categories': categories,
     }
 
     return render(request, 'products/special_offer_products.html', context)

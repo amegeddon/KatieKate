@@ -4,11 +4,14 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import GalleryImage, Category
-from .forms import GalleryForm  
+from .forms import GalleryForm
+
 
 def all_gallery_images(request):
-    """ A view to show all gallery images, including sorting and search queries """
-    
+    """
+    A view to display all gallery images, including sorting and search queries.
+
+    """
     gallery_images = GalleryImage.objects.all()
     categories = None
     query = None
@@ -23,15 +26,15 @@ def all_gallery_images(request):
             if sortkey == 'title':
                 sortkey = 'lower_title'
                 gallery_images = gallery_images.annotate(lower_title=Lower('title'))
-            
+
             if sortkey == 'category':
                 sortkey = 'category__name'
-            
+
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
-            
+
             gallery_images = gallery_images.order_by(sortkey)
 
         # Handle filtering by category
@@ -41,15 +44,12 @@ def all_gallery_images(request):
             gallery_images = gallery_images.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)  # Filter categories
 
-            print("Filtered Categories:", categories)  # Debugging statement to see selected categories
-
         # Handle search query (if needed in the future)
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('gallery'))
-            
             queries = Q(title__icontains=query) | Q(description__icontains=query)
             gallery_images = gallery_images.filter(queries)
 
@@ -66,28 +66,47 @@ def all_gallery_images(request):
         'current_sorting': current_sorting,
     }
 
-    print("Context passed to template:", context)  # Debugging the context
-
     return render(request, 'gallery/gallery.html', context)
 
 
 def gallery_detail(request, image_id):
-    """ A view to show individual gallery image details """
+    """
+    A view to display the details of a single gallery image.
 
+    This view fetches a specific image based on the image ID and renders the
+    corresponding template with the image details.
+
+    Args:
+        request (HttpRequest): The request object.
+        image_id (int): The ID of the image to be displayed.
+
+    Returns:
+        HttpResponse: The rendered 'gallery/gallery_detail.html' template with context.
+    """
     image = get_object_or_404(GalleryImage, pk=image_id)
 
     context = {
-        'image': image,  
+        'image': image,
     }
-    print(image.title, image.description) 
 
     return render(request, 'gallery/gallery_detail.html', context)
 
 
-
 @login_required
 def add_gallery_image(request):
-    """ Add a new image to the gallery """
+    """
+    A view to add a new image to the gallery.
+
+    This view handles form submission to add a new gallery image. Only superusers
+    are allowed to add images. After a successful form submission, the user is redirected
+    to the gallery page.
+
+    Args:
+        request (HttpRequest): The request object containing POST data.
+
+    Returns:
+        HttpResponse: The rendered 'gallery/add_gallery_image.html' template with context.
+    """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -97,24 +116,28 @@ def add_gallery_image(request):
         if form.is_valid():
             gallery_image = form.save()
             messages.success(request, 'Successfully added Gallery Item!')
-            return redirect(reverse('gallery'))  
+            return redirect(reverse('gallery'))
         else:
             messages.error(request, 'Failed to add Gallery Item. Please ensure the form is valid.')
     else:
         form = GalleryForm()
 
-    template = 'gallery/add_gallery_image.html'
     context = {
         'form': form,
     }
 
-    return render(request, template, context)
-
+    return render(request, 'gallery/add_gallery_image.html', context)
 
 
 @login_required
 def edit_gallery_image(request, image_id):
-    """ Edit a gallery image """
+    """
+    A view to edit an existing gallery image.
+    
+    This view allows authenticated (superuser) users to edit the details of an existing gallery image,
+    including its title, description, and category. After successful update, the user is redirected to the gallery.
+    """
+    
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -132,18 +155,22 @@ def edit_gallery_image(request, image_id):
         form = GalleryForm(instance=image)
         messages.info(request, f'You are editing {image.title}')
 
-    template = 'gallery/edit_gallery_image.html'
     context = {
         'form': form,
         'image': image,
     }
 
-    return render(request, template, context)
-
+    return render(request, 'gallery/edit_gallery_image.html', context)
 
 @login_required
 def delete_gallery_image(request, image_id):
-    """ Delete a gallery image """
+    """
+    A view to delete a gallery image.
+
+    This view allows authenticated (superuser) users to delete a gallery image from the database.
+    After the image is deleted, the user is redirected to the gallery page.
+    """
+
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
@@ -151,16 +178,18 @@ def delete_gallery_image(request, image_id):
     image = get_object_or_404(GalleryImage, pk=image_id)
     image.delete()
     messages.success(request, 'Gallery image deleted!')
-    return redirect(reverse('gallery'))  
-
+    return redirect(reverse('gallery'))
 
 
 def gallery_full_view(request, image_id):
-    """ A view to display an individual image in full view with next/previous navigation """
+    """
+    A view to display an individual gallery image in full view with next/previous navigation.
+
+    This view shows a specific image in full view and provides navigation links to the previous and next image
+    in the gallery, based on the image ID.
+    """
 
     current_image = get_object_or_404(GalleryImage, pk=image_id)
-    
-
     prev_image = GalleryImage.objects.filter(id__lt=current_image.id).last()
     next_image = GalleryImage.objects.filter(id__gt=current_image.id).first()
 

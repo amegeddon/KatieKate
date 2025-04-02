@@ -4,5 +4,4 @@ from .models import GalleryImage
 # Register your models here.
 
 
-
 admin.site.register(GalleryImage)

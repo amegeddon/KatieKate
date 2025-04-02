@@ -3,10 +3,19 @@ from django.core.mail import EmailMessage
 from django.contrib import messages
 from .forms import ContactForm
 
+
 def contact(request):
+    """
+    A view to handle the contact form submission. If the request is a POST request,
+    it processes the form data, sends an email with the user's message and optional image,
+    and provides feedback to the user.
+
+    """
     if request.method == "POST":
         form = ContactForm(request.POST, request.FILES)
+
         if form.is_valid():
+            # Extract cleaned data from the form
             name = form.cleaned_data['name']
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
@@ -17,19 +26,23 @@ def contact(request):
                 subject=f"New Contact Form Submission from {name}",
                 body=message,
                 from_email=email,
-                to=['your-email@example.com'],  # Replace with your email
+                to=['ameescook@gmail.com'],
             )
 
-            # Attach image if uploaded
+            # Attach image if it was uploaded
             if image:
                 email_message.attach(image.name, image.read(), image.content_type)
 
             # Send the email
             email_message.send()
 
+            # Display a success message to the user
             messages.success(request, "Your message has been sent successfully!")
+
+            # Redirect back to the contact page
             return redirect('contact')
     else:
         form = ContactForm()
 
+    # Render the contact page with the form
     return render(request, 'contact/contact.html', {'form': form})

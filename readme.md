@@ -11,59 +11,58 @@ KatieKate&Co was created as my fourth and final milestone project for the Code I
 
 ### User stories
 
-| As a...                 | I want to be able to…                                                 | So that I can…                                                 |
-|-------------------------|----------------------------------------------------------------------|----------------------------------------------------------------|
-| **Viewing and Navigation** |
-| User                   | Have an immediate understanding as to the purpose of the site       | Deduce quickly whether this is the right website for me        |
-| User                   | View current list of products for sale                             | Be able to filter the products by category                     |
-| User                   | Select some to purchase with ease                                 | View previous commissioned products in a gallery list view     |
-| User                   | Be able to filter gallery items by category                       | Be able to scroll through these gallery images easily         |
-| User                   | View individual product details                                  | Identify the price, description, product rating, product image |
-| User                   | View details of gallery items                                   | View gallery item details, name, and description              |
-| User                   | Quickly identify deals, clearance items, and special offers     |                                                                |
-| User                   | Easily check the total cost of purchases anytime               |                                                                |
-| User                   | Read reviews from past customers                               | Make well-informed decisions about the products               |
+| As a...                  | I want to be able to…                                             | So that I can…                                                |
+|--------------------------|------------------------------------------------------------------|---------------------------------------------------------------|
+| **Viewing and Navigation**|                                                                  |                                                               |
+| User                     | Have an immediate understanding as to the purpose of the site   | Deduce quickly whether this is the right website for me       |
+| User                     | View current list of products for sale                          | Be able to filter the products by category                    |
+| User                     | Select some to purchase with ease                               | View previous commissioned products in a gallery list view    |
+| User                     | Be able to filter gallery items by category                     | Be able to scroll through these gallery images easily         |
+| User                     | View individual product details                                | Identify the price, description, product rating, product image|
+| User                     | View details of gallery items                                  | View gallery item details, name, and description              |
+| User                     | Quickly identify deals, clearance items, and special offers    |                                                               |
+| User                     | Easily check the total cost of purchases anytime               |                                                               |
+| User                     | Read reviews from past customers                               | Make well-informed decisions about the products               |
 
-| **Registration and User Accounts** |
-| Registered User        | Easily register for an account                                 | Create a personal account and access my profile anytime      |
-| Registered User        | Easily login or logout                                       | View and manage my personal account details                  |
-| Registered User        | Easily reset my password if I forget it                      | Restore account access                                       |
-| Registered User        | Get an email confirmation upon registration                  | Confirm that my account was successfully created             |
-| Registered User        | Have a personalized user profile                             |                                                                |
-| Registered User        | Ensure my email address is verified by the site              | Make sure my email and personal data are secure             |
-| Registered User        | See my past order history                                   | View my personal order history and current address details  |
-| Registered User        | Have the ability to update address details                   |                                                                |
-| Registered User        | Be able to leave reviews for purchased items                | Share my experiences to help others                         |
+| **Registration and User Accounts** |                                                                |                                                               |
+| Registered User            | Easily register for an account                                 | Create a personal account and access my profile anytime      |
+| Registered User            | Easily login or logout                                         | View and manage my personal account details                  |
+| Registered User            | Easily reset my password if I forget it                        | Restore account access                                       |
+| Registered User            | Get an email confirmation upon registration                    | Confirm that my account was successfully created             |
+| Registered User            | Have a personalized user profile                               |                                                               |
+| Registered User            | Ensure my email address is verified by the site                | Make sure my email and personal data are secure              |
+| Registered User            | See my past order history                                     | View my personal order history and current address details   |
+| Registered User            | Have the ability to update address details                     |                                                               |
+| Registered User            | Be able to leave reviews for purchased items                   | Share my experiences to help others                          |
 
-| **Sorting and Searching** |
-| User                   | Sort the list of available products                          | Quickly find top-rated, best-priced products by category    |
-| Shopper                | Search for a product by name or description                 | Easily locate a specific product                            |
-| User                   | Quickly view my search and the number of results           | Determine if the product I want is available               |
-| User                   | Store my billing and delivery details                      | Enjoy a faster checkout in future orders                   |
-| User                   | Edit/Update my reviews                                     | Modify my review if my opinion changes                    |
-| User                   | Delete my reviews                                         | Remove my review if I no longer find it relevant          |
+| **Sorting and Searching**  |                                                                  |                                                               |
+| User                       | Sort the list of available products                             | Quickly find top-rated, best-priced products by category     |
+| Shopper                    | Search for a product by name or description                     | Easily locate a specific product                             |
+| User                       | Quickly view my search and the number of results                | Determine if the product I want is available                |
+| User                       | Store my billing and delivery details                           | Enjoy a faster checkout in future orders                    |
+| User                       | Edit/Update my reviews                                          | Modify my review if my opinion changes                       |
+| User                       | Delete my reviews                                               | Remove my review if I no longer find it relevant             |
 
-| **Purchasing and Checkout** |
-| User                   | Easily select and add to the bag the correct product & quantity | Make sure I don’t mistakenly choose the wrong product  |
-| User                   | See the items in my shopping bag before purchasing          | Review the total cost of my purchase                    |
-| User                   | View the total cost of my purchase before checking out      | Ensure I know the total cost including shipping         |
-| User                   | Modify the quantity of items in my bag                      | Quickly update my purchase before checkout             |
-| User                   | Easily enter my payment information                         | Complete checkout smoothly                             |
-| User                   | Trust that my personal and payment info is secure          | Confidently provide payment details                    |
-| User                   | See an order confirmation at checkout                       | Ensure I haven't made any errors                       |
-| User                   | Get an email confirmation after checkout                    | Save the confirmation for future reference             |
-| User                   | Contact the store for quotes or questions                  | Obtain additional information about a service or product |
-| User                   | Quickly check if there are items in my shopping basket    | Instantly see if my basket contains any items         |
-| Shopper                | Checkout without registering for an account                 | Complete my purchase quickly without an account       |
+| **Purchasing and Checkout**|                                                                  |                                                               |
+| User                       | Easily select and add to the bag the correct product & quantity | Make sure I don’t mistakenly choose the wrong product & quantity |
+| User                       | See the items in my shopping bag before purchasing              | Review the total cost of my purchase                        |
+| User                       | View the total cost of my purchase before checking out          | Ensure I know the total cost including shipping              |
+| User                       | Modify the quantity of items in my bag                          | Quickly update my purchase before checkout                   |
+| User                       | Easily enter my payment information                             | Complete checkout smoothly                                   |
+| User                       | Trust that my personal and payment info is secure              | Confidently provide payment details                          |
+| User                       | See an order confirmation at checkout                           | Ensure I haven't made any errors                             |
+| User                       | Get an email confirmation after checkout                        | Save the confirmation for future reference                   |
+| User                       | Contact the store for quotes or questions                       | Obtain additional information about a service or product    |
+| User                       | Quickly check if there are items in my shopping basket          | Instantly see if my basket contains any items                |
+| Shopper                    | Checkout without registering for an account                    | Complete my purchase quickly without an account              |
 
-| **Admin and Store Management** |
-| Store Owner/Staff Member | Add a product                                          | Easily add new items to the store                     |
-| Store Owner/Staff Member | Edit/Update a product                                 | Modify product details                                |
-| Store Owner/Staff Member | Delete a product                                    | Remove items that are no longer for sale             |
-| Store Owner/Staff Member | Add a gallery item to the collection                | Add new gallery items                                |
-| Store Owner/Staff Member | Edit/Update a gallery item                          | Modify gallery name, description, or image          |
-| Store Owner/Staff Member | Delete a gallery item                               | Remove gallery items if necessary                   |
-
+| **Admin and Store Management**|                                                              |                                                               |
+| Store Owner/Staff Member   | Add a product                                                 | Easily add new items to the store                            |
+| Store Owner/Staff Member   | Edit/Update a product                                          | Modify product details                                       |
+| Store Owner/Staff Member   | Delete a product                                               | Remove items that are no longer for sale                     |
+| Store Owner/Staff Member   | Add a gallery item to the collection                           | Add new gallery items                                        |
+| Store Owner/Staff Member   | Edit/Update a gallery item                                     | Modify gallery name, description, or image                   |
+| Store Owner/Staff Member   | Delete a gallery item                                          | Remove gallery items if necessary                            |
 
 
 ### Design

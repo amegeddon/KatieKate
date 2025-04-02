@@ -59,8 +59,6 @@
                                     <p class="mb-0"><strong>{{ image.title }}</strong></p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
-                                    <p class="text-muted">{{ image.description|truncatewords:25 }}</p>
-
                                     <small class="text-muted">{{ image.created_at|date:"F d, Y" }}</small>
                                 </div>
                                 {% if request.user.is_superuser %}

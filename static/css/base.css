@@ -466,9 +466,8 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
     .hero {
-        height: 70vh; 
+        height: 80vh; 
         padding: 20px, 20px; 
-        position: relative !important;
     }
 
     .hero-content { 
@@ -477,7 +476,7 @@ input[name='q']::placeholder {
     }
 
     .hero h1 {
-        padding-top: 100px;
+        padding-top: 2rem;
     }
 
     /* Make sure text doesn't overflow */
@@ -488,3 +487,69 @@ input[name='q']::placeholder {
     }
 }
 
+@media (max-width: 400px) {
+    .header-container {
+        padding-top: 90px; /* Adjust padding to avoid nav bar overlap */
+    }
+
+    body {
+        height: calc(100vh - 90px); /* Adjust body height accordingly */
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 1.5rem; /* Make font smaller for better visibility */
+    }
+
+    .nav-link {
+        padding: 0.1rem; /* Reduce padding for smaller screens */
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 0.9rem; /* Reduce icon size */
+    }
+
+    .navbar-toggler {
+        padding: .4rem .4rem; /* Adjust button padding */
+        font-size: 0.9rem; /* Reduce button font size */
+    }
+
+    #delivery-banner h4 {
+        font-size: .8rem; /* Reduce banner text size */
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .3rem .3rem; /* Reduce button padding */
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .3rem .3rem; /* Adjust button size */
+        font-size: .7rem; /* Smaller button text */
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .2rem .4rem !important; /* Adjust padding on quantity buttons */
+    }
+
+    .hero {
+        height: 70vh; /* Reduce hero section height */
+        padding: 10px 10px; /* Adjust padding for smaller devices */
+    }
+
+    .hero-content { 
+        font-size: 1rem; /* Reduce font size in hero content */
+        padding: 15px; /* Adjust padding for better spacing */
+    }
+
+    .hero h1 {
+        padding-top: 70px; /* Adjust heading padding */
+    }
+
+    /* Make sure text doesn't overflow */
+    .hero h1, .hero h2, .hero p {
+        word-wrap: break-word;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+}

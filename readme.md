@@ -1,249 +1,69 @@
-<h1 id="title"><img src="" height="125" alt="Title - KatieKate&Co"></h1>
+# KatieKate&Co
 
 Katiekate & Co is an upholstery business dedicated to reviving forgotten treasures through bespoke craftsmanship. With a strong emphasis on recycling, reviving, and renewing, the business is committed to preventing furniture from ending up in landfill by transforming neglected pieces into beautifully restored, meaningful creations. The website showcases a gallery of previous commissions, highlighting skillfully reimagined pieces. Visitors can explore and purchase current products, as well as connect to discuss custom upholstery projects. Rooted in a passion for creativity and sustainability, Katiekate & Co gives new life to cherished heirlooms and forgotten furniture.
 KatieKate&Co was created as my fourth and final milestone project for the Code Institutes Level 5 Diploma in Web Application Development.
 
 [View the live project here.](https://katiekate-729242823673.herokuapp.com/)
 
-<img src="" alt="Image of KatieKate&Co website on different devices">
+![Image of KatieKate&Co website on different devices]( "")
 
 ## User Experience (UX) 
 
 ### User stories
 
-<table>
-  <thead>
-    <tr>
-      <th>As a...</th>
-      <th>I want to be able to…</th>
-      <th>So that I can…</th>
-    </tr>
-    <tr>
-      <th colspan="3">Viewing and Navigation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>User</td>
-      <td>Have an immediate understanding as to the purpose of the site</td>
-      <td>Deduce quickly whether this is the right website for me</td>
-      <td>Immediately be linked to a contact page to discuss my upholstory project</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>View current list of products for sale</td>
-      <td>Be able to filter the products by category</td>
-      <td>Select some to purchase with ease</td>
-      <td>View previous comissioned products in a gallery list view</td>
-      <td>Be able to filter gallery items by category</td>
-      <td>Be able to scroll through these gallery images easily</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>View individual product details</td>
-      <td>Identify the price, description, product rating, product image</td>
-      <td>View details of gallery items </td>
-      <td>View gallery item details , name and description </td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Quickly identify deals, clearance items and special offers</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Easily check the total cost of your purchases anytime.</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Read reviews from past customers about our products.</td>
-      <td>Make well-informed decisions about the products you’re purchasing.</td>
-    </tr>
-    </tbody>
-    <thead>
-    <tr>
-      <th colspan="3">Registration and User Accounts</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>Registered User</td>
-      <td>Easily register for an account</td>
-      <td>Create a personal account and access your profile anytime.</td>
-    </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>Easily login or logout</td>
-      <td>View and manage your personal account details.</td>
-    </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>Easily reset your password if you forget it.</td>
-      <td>Restore account accesst</td>
-    </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>Get an email confirmation upon registration</td>
-      <td>Confirm that my account was successfully created</td>
-    </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>Have a personalised used profile</td>
-      </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>Ensure my email address is verified by the site.</td>
-      <td>Make sure my email address and personal data are protected and secure.</td>
-    </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>See my past order history</td>
-      <td>View my personal order history and current address details</td>
-      <td>Have the ability to update address details</td>
-    </tr>
-    <tr>
-      <td>Registered User</td>
-      <td>Be able to leave reviews for purchased items</td>
-      <td>Share my experiences to help potential buyers make informed decisions, provide feedback to the seller.
-    </tr>
-    </tbody>
-    <thead>
-    <tr>
-      <th colspan="3">Sorting and Searching</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>User</td>
-      <td>Sort the list of available products</td>
-      <td>Quickly find top-rated, best-priced, and well-organized products by category</td>
-    </tr>
-    <tr>
-      <td>Shopper</td>
-      <td>Search for a product by name or description</td>
-      <td>Easily locate a specific product I want to buy.</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Quickly view my search and the number of results.</td>
-      <td>Easily determine if the product I want is available</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Store my billing and delivery details</td>
-      <td>Enjoy a faster and more convenient checkout for future orders</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Edit/Update my reviews</td>
-      <td>Modify my review if my opinion changes </td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Delete my reviews</td>
-      <td>Remove my review if I no longer find it relevant and do not wish to leave a new one</td>
-    </tr>
-    </tbody>
-    <thead>
-    <tr>
-      <th colspan="3">Purchasing and Checkout</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>User</td>
-      <td>Easily select and add to bag the correct product and quantit</td>
-      <td>Make sure I don’t mistakenly choose the wrong product or quantity.</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>See the items in my shopping bag before purchasing.</td>
-      <td>Determine the total cost of my purchase and review all items included.</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>View the total cost of my purchase before checking out</td>
-      <td>So that I can see what the total cost of my purchase is including any additional costs such as shipping are   before making my final purchase</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Modify the quantity of items in my bag</td>
-      <td>Quickly update my purchase before checkout</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Easily enter my payment information</td>
-      <td>Complete checkout smoothly and without delays</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Trust that my personal and payment information is secure</td>
-      <td>Confidently provide the necessary details to complete my purchase</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>See an order confirmation at checkout</td>
-      <td>Ensure that I haven't made any errors</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Get an email confirmation after checkout</td>
-      <td>Save the confirmation of my purchase for future reference</td>
-    </tr>
-    <tr>
-      <td>User</td>
-      <td>Contact the store easily with any questions for quotations of reupholstery</td>
-      <td>Obtain additional information about a service, product or order</td>
-    </tr>
-        <tr>
-      <td>User</td>
-      <td>Quickly check if there are items in my shopping basket</td>
-      <td>Instantly see if my basket contains any items</td>
-    </tr>
-    <tr>
-      <td>Shopper</td>
-      <td>Checkout without needing to register for an account</td>
-      <td>Complete my purchase quickly and easily without creating an account</td>
-    </tr>
-    </tbody>
-    <thead>
-    <tr>
-      <th colspan="3">Admin and Store Management</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>Store Owner/Staff Member</td>
-      <td>Add a product</td>
-      <td>Easily add new items to the store</td>
-    </tr>
-    <tr>
-      <td>Store Owner/Staff Member</td>
-      <td>Edit/Update a product</td>
-      <td>Easily modify product prices, descriptions, images and other product criteria</td>
-    </tr>
-    <tr>
-      <td>Store Owner/Staff Member</td>
-      <td>Delete a product</td>
-      <td>Remove items that are no longer for sale</td>
-    </tr>
-    <tr>
-      <td>Store Owner/Staff Member</td>
-      <td>Add a Gallery item to Gallery collection</td>
-      <td>Easily add new Gallery items to the store</td>
-    </tr>
-    <tr>
-      <td>Store Owner/Staff Member</td>
-      <td>Edit/Update a Gallery Item</td>
-      <td>Easily modify gallery name, description or image within gallery management view</td>
-    </tr>
-    <tr>
-      <td>Store Owner/Staff Member</td>
-      <td>Delete a gallery item</td>
-      <td>Remove gallery item if necessary</td>
-    </tr>
-    
-  </tbody>
-</table>
+| As a...                 | I want to be able to…                                                 | So that I can…                                                 |
+|-------------------------|----------------------------------------------------------------------|----------------------------------------------------------------|
+| **Viewing and Navigation** |
+| User                   | Have an immediate understanding as to the purpose of the site       | Deduce quickly whether this is the right website for me        |
+| User                   | View current list of products for sale                             | Be able to filter the products by category                     |
+| User                   | Select some to purchase with ease                                 | View previous commissioned products in a gallery list view     |
+| User                   | Be able to filter gallery items by category                       | Be able to scroll through these gallery images easily         |
+| User                   | View individual product details                                  | Identify the price, description, product rating, product image |
+| User                   | View details of gallery items                                   | View gallery item details, name, and description              |
+| User                   | Quickly identify deals, clearance items, and special offers     |                                                                |
+| User                   | Easily check the total cost of purchases anytime               |                                                                |
+| User                   | Read reviews from past customers                               | Make well-informed decisions about the products               |
+
+| **Registration and User Accounts** |
+| Registered User        | Easily register for an account                                 | Create a personal account and access my profile anytime      |
+| Registered User        | Easily login or logout                                       | View and manage my personal account details                  |
+| Registered User        | Easily reset my password if I forget it                      | Restore account access                                       |
+| Registered User        | Get an email confirmation upon registration                  | Confirm that my account was successfully created             |
+| Registered User        | Have a personalized user profile                             |                                                                |
+| Registered User        | Ensure my email address is verified by the site              | Make sure my email and personal data are secure             |
+| Registered User        | See my past order history                                   | View my personal order history and current address details  |
+| Registered User        | Have the ability to update address details                   |                                                                |
+| Registered User        | Be able to leave reviews for purchased items                | Share my experiences to help others                         |
+
+| **Sorting and Searching** |
+| User                   | Sort the list of available products                          | Quickly find top-rated, best-priced products by category    |
+| Shopper                | Search for a product by name or description                 | Easily locate a specific product                            |
+| User                   | Quickly view my search and the number of results           | Determine if the product I want is available               |
+| User                   | Store my billing and delivery details                      | Enjoy a faster checkout in future orders                   |
+| User                   | Edit/Update my reviews                                     | Modify my review if my opinion changes                    |
+| User                   | Delete my reviews                                         | Remove my review if I no longer find it relevant          |
+
+| **Purchasing and Checkout** |
+| User                   | Easily select and add to the bag the correct product & quantity | Make sure I don’t mistakenly choose the wrong product  |
+| User                   | See the items in my shopping bag before purchasing          | Review the total cost of my purchase                    |
+| User                   | View the total cost of my purchase before checking out      | Ensure I know the total cost including shipping         |
+| User                   | Modify the quantity of items in my bag                      | Quickly update my purchase before checkout             |
+| User                   | Easily enter my payment information                         | Complete checkout smoothly                             |
+| User                   | Trust that my personal and payment info is secure          | Confidently provide payment details                    |
+| User                   | See an order confirmation at checkout                       | Ensure I haven't made any errors                       |
+| User                   | Get an email confirmation after checkout                    | Save the confirmation for future reference             |
+| User                   | Contact the store for quotes or questions                  | Obtain additional information about a service or product |
+| User                   | Quickly check if there are items in my shopping basket    | Instantly see if my basket contains any items         |
+| Shopper                | Checkout without registering for an account                 | Complete my purchase quickly without an account       |
+
+| **Admin and Store Management** |
+| Store Owner/Staff Member | Add a product                                          | Easily add new items to the store                     |
+| Store Owner/Staff Member | Edit/Update a product                                 | Modify product details                                |
+| Store Owner/Staff Member | Delete a product                                    | Remove items that are no longer for sale             |
+| Store Owner/Staff Member | Add a gallery item to the collection                | Add new gallery items                                |
+| Store Owner/Staff Member | Edit/Update a gallery item                          | Modify gallery name, description, or image          |
+| Store Owner/Staff Member | Delete a gallery item                               | Remove gallery items if necessary                   |
+
 
 
 ### Design
@@ -252,16 +72,16 @@ KatieKate&Co was created as my fourth and final milestone project for the Code I
 
 
 -   ##### Main Colours Used
-    - Text colour 1 - 
-    - Text colour 2 - 
-    - Text colour 3 - 
-    - Background colour - 
-    - Button colour 1 - 
-    - Button colour 2 - 
-    - Button colour 3 - 
-    - Button text colour -`
-    - Badge text colour 1 - 
-    - Badge text colour 3 -
+    - Text colour 1 - #000000
+    - Text colour 2 -  #555555
+    - Text colour 3 -  #ffffff
+    - Background colour - #FAF9F6
+    - Button colour 1 - #000000
+    - Button colour 2 - #ffffff
+    - Button colour 3 (Call to action) - #FF6347 
+    - Button text colour 1 - #ffffff
+    - Badge text colour 1 - #000000
+    - Badge text colour 3 - #ffffff 
 
 #### Colour Accessibility
 
@@ -275,9 +95,8 @@ For further information on these guidelines, you can visit the following link. [
 
 - ##### Colour Palette and Results
     - Text Colour 1 - [Coolors Contrast Checker](https://coolors.co/contrast-checker/084298-ffffff)<br>
-    <img src="" alt="Contrast check of text colour 1 against white background">
-
-
+    ![Contrast check of text colour 1 against Linen warm white background](colour-check.png)
+    ![Contrast check of text colour 2 against Linen warm white background](colour-check1.png)
 
 
 #### Typography
@@ -290,13 +109,10 @@ The main considerations for the font were aesthetics and accessibility. I chose 
 
 #### Imagery
 
-  - ##### Logo
-    The Keto Kreations logo was created using Logo.com which can be found [here](https://logo.com/).
-    <img src="media/logo.webp" alt="Keto Kreations Logo">
-
   - ##### Welcome Image
     The welcome/hero image is from adobe stock images and has been properly licensed for use. 
-    <img src="" alt="Welcome/hero image">
+    ![Welcome/hero image](AdobeStock_1214311757.jpeg)
+
 
   - #### Product Images
     All product images are the store owners own. 

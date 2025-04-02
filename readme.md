@@ -180,10 +180,10 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 | Shopping bag page             | ![Screenshot of shopping bag page on laptop](l-shopping-bag.png)        |
 | Checkout page                 | ![Screenshot of checkout page on laptop](L-checkout.png)            |
 | Checkout success page         | ![Screenshot of checkout success page on laptop](l-checkoutSuccess.png)    |
-| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
+| Profile page                  | ![Screenshot of profile page on laptop](l-profile.png)             |
 | Add product page       | ![Screenshot of product management page on laptop](l-productManagemenetAdd.png)  |
 | Product Management page             | ![Screenshot of add product page on laptop](l-productManagement.png)         |
-| Edit product page            | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Edit product page            | ![Screenshot of add product page on laptop](l-product-add.png)         |
 | Add Gallery Item page         | ![Screenshot of edit product page on laptop](l-galleryManagementAdd.png)        |
 | Edit Gallery Item page             | ![Screenshot of edit product page on laptop](l-galleryManagementEdit.png)        |
 | Login page                    | ![Screenshot of login page laptop](L-sign_in.png)                  |

@@ -157,17 +157,16 @@ def checkout_success(request, order_number):
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
-    # Send confirmation email using EmailMessage
+ 
     email_message = EmailMessage(
         subject=f'Order Confirmation - {order_number}',
         body=f'Hi {order.full_name},\n\n'
              f'Thank you for your order! Your order number is {order_number}. '
              f'We are processing your order and will update you when it ships.',
-        from_email=settings.DEFAULT_FROM_EMAIL,  # Your 'from' email address
-        to=[order.email],  # Send to the user's email
+        from_email=settings.DEFAULT_FROM_EMAIL, 
+        to=[order.email], 
     )
-    
-    # Send the email
+
     email_message.send()
 
     if request.user.is_authenticated:
@@ -185,8 +184,6 @@ def checkout_success(request, order_number):
             profile.default_county = order.county
             profile.save()
 
-    # Provide feedback to the user
     messages.success(request, f'Order successfully processed! Your order number is {order_number}. A confirmation email has been sent to {order.email}.')
 
-    # Render the checkout success page
     return render(request, 'checkout/checkout_success.html', {'order': order})

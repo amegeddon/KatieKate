@@ -171,25 +171,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop](your-image-path-here)           |
-| Products page                 | ![Screenshot of products page on laptop](your-image-path-here)            |
-| Product details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery page                  | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery details page          | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Gallery image full page view  | ![Screenshot of product details page on laptop](your-image-path-here)     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop](your-image-path-here)        |
-| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
-| Checkout page                 | ![Screenshot of checkout page on laptop](your-image-path-here)            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop](your-image-path-here)    |
+| Welcome page                  | ![Screenshot of welcome screen on laptop](l-welcome.png)           |
+| Products page                 | ![Screenshot of products page on laptop](l-products.png)            |
+| Product details page          | ![Screenshot of product details page on laptop](l-product-detail.png)     |
+| Gallery page                  | ![Screenshot of gallery page on laptop](l-gallery.png)     |
+| Gallery details page          | ![Screenshot of gallery details page on laptop](l-gallery-detail.png)     |
+| Gallery image full page view  | ![Screenshot of gallery details page on laptop](l-gallery-fullview.png)     |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop](l-shopping-bag.png)        |
+| Checkout page                 | ![Screenshot of checkout page on laptop](L-checkout.png)            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop](l-checkoutSuccess.png)    |
 | Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
-| Profile page                  | ![Screenshot of profile page on laptop](your-image-path-here)             |
-| Product management page       | ![Screenshot of product management page on laptop](your-image-path-here)  |
-| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
-| Add product page              | ![Screenshot of add product page on laptop](your-image-path-here)         |
-| Edit product page             | ![Screenshot of edit product page on laptop](your-image-path-here)        |
-| Login page                    | ![Screenshot of login page laptop](your-image-path-here)                  |
-| Logout page                   | ![Screenshot of logout page laptop](your-image-path-here)                 |
-| Register page                 | ![Screenshot of register page laptop](your-image-path-here)               |
+| Add product page       | ![Screenshot of product management page on laptop](l-productManagemenetAdd.png)  |
+| Product Management page             | ![Screenshot of add product page on laptop](l-productManagement.png)         |
+| Edit product page            | ![Screenshot of add product page on laptop](your-image-path-here)         |
+| Add Gallery Item page         | ![Screenshot of edit product page on laptop](l-galleryManagementAdd.png)        |
+| Edit Gallery Item page             | ![Screenshot of edit product page on laptop](l-galleryManagementEdit.png)        |
+| Login page                    | ![Screenshot of login page laptop](L-sign_in.png)                  |
+| Logout page                   | ![Screenshot of logout page laptop](l-signOut.png)                 |
+| Register page                 | ![Screenshot of register page laptop](l-signnup.png)               |
 
 ---
 

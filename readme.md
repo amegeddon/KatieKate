@@ -327,7 +327,7 @@ A search function allows customers to quickly find specific products, and clearl
 
 - Confirmation emails are sent for all orders and whenever a customer contacts the store through the 'Contact' modal on the site.
 
-  ![Message successfully sent message ](message-successfully-sent.png)
+  ![Message successfully sent message ](images/message-successfully-sent.png)
   ![Customer enquiry email ](images/email-from-customer.png)
   ![Order confirmation email ](images/order-confirmation.png)
   

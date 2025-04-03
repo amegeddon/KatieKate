@@ -189,6 +189,7 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 | Login page                    | ![Screenshot of login page laptop](images/L-sign_in.png)                  |
 | Logout page                   | ![Screenshot of logout page laptop](images/l-signOut.png)                 |
 | Register page                 | ![Screenshot of register page laptop](images/l-signnup.png)               |
+| Contact page                 | ![Screenshot of contact page laptop](images/l-contact.png)               |
 
 ---
 
@@ -214,6 +215,7 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 | Login page                    | ![Screenshot of login page tablet](images/t-login.png)                  |
 | Logout page                   | ![Screenshot of logout page tablet](images/t-logout.png)                 |
 | Register page                 | ![Screenshot of register page tablet](images/t-register.png)               |
+| Contact page                 | ![Screenshot of contact page tablet](images/t-contact.png)               |
 
 ---
 
@@ -221,23 +223,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop](images/m-welcome.png)           |
-| Products page                 | ![Screenshot of products page on laptop](images/m-products.png)            |
-| Product details page          | ![Screenshot of product details page on laptop](images/m-product-item.png)     |
-| Gallery page                  | ![Screenshot of gallery page on laptop](images/m-gallery.png)     |
-| Gallery details page          | ![Screenshot of gallery details page on laptop](images/m-gallery-item.png)     |
-| Gallery image full page view  | ![Screenshot of gallery details page on laptop]()     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop](images/m-shopping-bag.png)        |
-| Checkout page                 | ![Screenshot of checkout page on laptop](images/m-checkout.png)            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop](images/m-checkout-success.png)    |
-| Profile page                  | ![Screenshot of profile page on laptop]()             |
-| Add product page       | ![Screenshot of product management page on laptop](images/m-product-add.png)  |
-| Edit product page            | ![Screenshot of add product page on laptop]()         |
-| Add Gallery Item page         | ![Screenshot of edit product page on laptop](images/m-gallery-add.png)        |
-| Edit Gallery Item page             | ![Screenshot of edit product page on laptop]()        |
-| Login page                    | ![Screenshot of login page laptop](images/m-login.png)                  |
-| Logout page                   | ![Screenshot of logout page laptop](images/m-signout.png)                 |
-| Register page                 | ![Screenshot of register page laptop](images/m-register.png)               |
+| Welcome page                  | ![Screenshot of welcome screen on mobile](images/m-welcome.png)           |
+| Products page                 | ![Screenshot of products page on mobile](images/m-products.png)            |
+| Product details page          | ![Screenshot of product details page on mobile](images/m-product-item.png)     |
+| Gallery page                  | ![Screenshot of gallery page on mobile](images/m-gallery.png)     |
+| Gallery details page          | ![Screenshot of gallery details page on mobile](images/m-gallery-item.png)     |
+| Gallery image full page view  | ![Screenshot of gallery details page on mobile]()     |
+| Shopping bag page             | ![Screenshot of shopping bag page on mobile](images/m-shopping-bag.png)        |
+| Checkout page                 | ![Screenshot of checkout page on mobile](images/m-checkout.png)            |
+| Checkout success page         | ![Screenshot of checkout success page on mobile](images/m-checkout-success.png)    |
+| Profile page                  | ![Screenshot of profile page on mobile](images/m-profile.png)             |
+| Add product page       | ![Screenshot of product management page on mobile](images/m-product-add.png)  |
+| Edit product page            | ![Screenshot of add product page on mobile]()         |
+| Add Gallery Item page         | ![Screenshot of edit product page on mobile](images/m-gallery-add.png)        |
+| Edit Gallery Item page             | ![Screenshot of edit product page on mobile]()        |
+| Login page                    | ![Screenshot of login page mobile](images/m-login.png)                  |
+| Logout page                   | ![Screenshot of logout page mobile](images/m-signout.png)                 |
+| Register page                 | ![Screenshot of register page mobile](images/m-register.png)               |
+| Contact page                | ![Screenshot of contact page mobile](images/m-contact.png)               |
 
 
 <hr>

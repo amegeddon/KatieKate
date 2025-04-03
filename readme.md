@@ -268,97 +268,75 @@ A search function allows customers to quickly find specific products, and clearl
 
 -A homepage designed to immediately communicate the site's purpose to the user.
 
-  ![Welcome page ](images/hero-content.png)
+  ![Hero content ](images/hero-content.png)
 <hr>
 
 - A contact button is always accessible in the navbar or navbar toggle on mobile view, providing users with a quick and convenient way to reach the store for any inquiries.
 
-  ![Welcome page ](images/m-contact-button.png)
-  ![Welcome page ](images/contact-button.png)
+  ![Contact navlink on mobile ](images/m-contact-button.png)
+  ![Contact navlink ](images/contact-button.png)
 <hr>
 
 - A product page displaying essential product details and images, along with filtering and sorting options to help users easily browse and find items in the store. 
 
-  ![Welcome page ](images/product-filter.png)
-  ![Welcome page ](images/contact-button.png)
+  ![product filtering](images/product-filter.png)
+  ![Welcome page ](images/product-sort.png)
 
 <hr>
 
-- A product details provides more indepth information about the product. It also shows reviews associated with that product. 
+- A product details view provides more indepth information about the product. It also shows reviews associated with that product. 
 
-  ![Welcome page ](images/m-contact-button.png)
-  ![Welcome page ](images/product-sort.png)
-  ![Welcome page ](images/m-product-filter.png)
+  ![Product details ](images/product-detail.png)
+ 
 <hr>
 
 -The ability to add items to the shopping bag, update quantities, or remove them as needed before making a purchase. Quantities can also be adjusted on the checkout view as well. 
 
-  ![Welcome page ](images/bag-quantity-selector.png)
-  ![Welcome page ](images/cart-quantity-selectore.png)
+  ![quantity selector shopping bag ](images/bag-quantity-selector.png)
+  ![quantity selector checkout view ](images/cart-quantity-selectore.png)
   
 <hr>
 
 - A secure checkout page, powered by Stripe, displaying an order summary and allowing registered users to save their details for future purchases.
 
-  ![Welcome page ](images/stipe1.png)
-  ![Welcome page ](images/stipe2.png)
+  ![Signed in user - save button active ](images/stipe1.png)
+  ![user prompted to sign in to save ](images/stipe2.png)
 <hr>
 
 - A checkout success page providing order confirmation along with a detailed order summary.
 
-  <img src="" alt="Stripe payment box">
+ ![Success toast message ](images/checkout-success-message.png)
+ ![Detailed order summary ](images/order-summary.png)
 <hr>
 
 - A user profile page allowing users to view and update their default delivery details and access their order history to review past purchases.
 
-    Additionally, a reviews section enables users to view, edit, or delete their previous reviews.
-
-  <img src="" alt="Profile page">
-  <img src="" alt="Profile page">
+  ![Users delivery details](images/delivery-details.png)
+  ![Users order summary ](images/users-order-summary.png)
 <hr>
 
-- For super users, a product management section is available, allowing them to add, edit, and delete products
+- For super users, a product management  and gallery manaagement link is made available in their account, allowing them to add, edit, and delete product and gallery items.
 
-    <img src="" alt="Product management page">
-<hr>
-
-- For super users, a Gallery management section is available, allowing them to add, edit, and delete products
-
-    <img src="" alt="Gallery management page">
+  ![Admin view of Product and Gallery Management](images/superuser-view.png)
 <hr>
 
 - Custom success, warning, and error messages provide customers with feedback on their actions while navigating the site. Additionally, a preview of the shopping cart is shown whenever changes are made to the items in the bag.
 
-    <img src="" alt="Success message">
-    <img src="" alt="Error message">
-    <img src="" alt="Shopping bag preview">
+    ![Success message and updated cart preview ](images/updated_cart.png)
 <hr>
 
 - Confirmation emails are sent for all orders and whenever a customer contacts the store through the 'Contact' modal on the site.
 
-  <img src="" alt="Contact page">
-  <img src="" alt="Message sent success message">
-  <img src="" alt="Customer enquiry email">
-  <img src="" alt="Customer enquiry confirmation email">
-  <img src="" alt="Checkout success">
-  <img src="" alt="Order confirmation email">
-<hr>
-
-- A custom 404 page that notifies the user the page they are looking for isn't available, with a button to redirect them back to the homepage.
-
-    <img src="" alt="404 page">
+  ![Message successfully sent message ](message-successfully-sent.png)
+  ![Customer enquiry email ](images/email-from-customer.png)
+  ![Order confirmation email ](images/order-confirmation.png)
+  
 <hr>
 
 - A scroll-to-top arrow on the products page that only appears when the customer starts scrolling down.
 
-  <img src="" alt="Back to top button">
-<hr>
-
-- Defensive programming has been implemented throughout the application to warn users before performing irreversible actions, such as deleting a product or Gallery Item. It also prevents unauthorized access to certain pages, ensuring that only logged-in users or super users can access specific areas of the site.
-
-  <img src="" alt="Delete product modal">
-  <img src="" alt="Not super user error message">
-
+  ![Scroll to top arrow fixed in bottom right corner of screen ](images/scroll-button.png)
+  
 <hr>
 
 
@@ -528,7 +506,7 @@ The project was deployed to [Heroku](https://www.heroku.com/) using a free relat
 11. You then need to add the hostname of your Heroku app to settings.py which can be found in the Heroku settings tab under Domains.
 
     ```bash
-    ALLOWED_HOSTS = ['keto-kreations-25ff0a2cbc9e.herokuapp.com', 'localhost']
+    ALLOWED_HOSTS = ['https://katiekate-729242823673.herokuapp.com/', 'localhost']
     ```
 
 12. We now need to migrate our database to our databse. Go to the top right hand of Heroku and select, more then select Run console. Type bash and click Run then type the following commands.
@@ -598,7 +576,7 @@ The project was deployed to [Heroku](https://www.heroku.com/) using a free relat
 
   #### Setting up AWS IAM
   1. From the **IAM dashboard** within AWS, select **User Groups**:
-      - Create new group e.g. `manage-keto-kreations`
+      - Create new group e.g. `manage-Katiekate`
       - Click through without adding a policy
       - **Create Group**
 

@@ -7,14 +7,20 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('gallery', '0001_initial'),
-        ('products', '0004_specialoffer_friendly_name'),
+        ("gallery", "0001_initial"),
+        ("products", "0004_specialoffer_friendly_name"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='galleryimage',
-            name='category',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='gallery_images', to='products.category'),
+            model_name="galleryimage",
+            name="category",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.CASCADE,
+                related_name="gallery_images",
+                to="products.category",
+            ),
         ),
     ]

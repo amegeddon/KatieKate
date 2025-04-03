@@ -406,7 +406,7 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #dc3545;
-    border-color: #dc3544;
+    border-color: #dc3540;
     border-radius: 0;
 }
 
@@ -473,7 +473,7 @@ input[name='q']::placeholder {
     }
     .hero {
         height: 80vh; 
-        padding: 20px, 20px; 
+        padding: 20px; 
     }
 
     .hero-content { 

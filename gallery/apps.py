@@ -7,5 +7,6 @@ class GalleryConfig(AppConfig):
     auto field type and the name of the app within the Django project.
 
     """
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'gallery'
+
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "gallery"

@@ -5,5 +5,6 @@ class ProductsConfig(AppConfig):
     """
     Configuration for the 'products' app.
     """
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'products'  # The name of the app
+
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "products"  # The name of the app

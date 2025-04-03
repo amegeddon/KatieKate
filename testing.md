@@ -41,24 +41,24 @@ In practice, a combination of manual and automated testing is crucial for produc
 
 | File | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
-| base.css | ![CSS validator results for base.css](image-url) | N/A | ![CSS validator results for base.css](image-url) |
-| checkout.css | None | N/A | ![CSS validator results for checkout.css](image-url) |
-| products.css | N/A | N/A | ![CSS validator results for products.css](image-url) |
-| profile.css | N/A | N/A | ![CSS validator results for profile.css](image-url) |
+| base.css | ![CSS validator results for base.css](images/base-css-validator.png) |
+| checkout.css | None | N/A | ![CSS validator results for checkout.css](images/w3-checkout-css.pngl) |
+| profile.css | N/A | N/A | ![CSS validator results for profile.css](images/w3-profiles-css.png) |
 
 
 #### JSHint Validator - [JSHint](https://jshint.com/)
 
 | File/Page | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
-| add_edit_product.js | N/A | N/A | <img src="" alt="JS Hint validator results for add_edit_product.js"> |
-| add_product.html | N/A | N/A | <img src="" alt="JS Hint validator results for add_product.html"> |
-| bag.html | N/A | N/A | <img src="readme_and_testing_media/testing/bagjs.jpeg" alt="JS Hint validator results for bag.html"> |
-| countryfield.js | N/A | N/A | <img src="" alt="JS Hint validator results for countryfield.js"> |
-| product_detail.html | N/A | N/A  | <img src="" alt="JS Hint validator results for product_detail.html"> |
-| product_management.html | N/A | N/A | <img src="" alt="JS Hint validator results for product_management.html"> |
-| products.html | N/A | N/A | <img src="" alt="JS Hint validator results for products.html"> |
-| stripe_element.js | N/A | N/A - The Stripe variable is defined outside the main file so no errors are caused in the terminal | <img src="" alt="JS Hint validator results for stripe_element.js"> |
+| add_edit_product.js | N/A | N/A | ![JS Hint validator results for add_edit_product.js]( ) |
+| add_product.html | N/A | N/A | ![JS Hint validator results for add_product.html]( ) |
+| bag.html | N/A | N/A | ![JS Hint validator results for bag.html]() |
+| countryfield.js | N/A | N/A | ![JS Hint validator results for countryfield.js]( ) |
+| product_detail.html | N/A | N/A  | ![JS Hint validator results for product_detail.html]( ) |
+| product_management.html | N/A | N/A | ![JS Hint validator results for product_management.html]( ) |
+| products.html | N/A | N/A | ![JS Hint validator results for products.html]( ) |
+| stripe_element.js | N/A | N/A - The Stripe variable is defined outside the main file so no errors are caused in the terminal | ![JS Hint validator results for stripe_element.js]( ) |
+
 
 
 #### Python Validator - [Code Institute Python Linter](https://pep8ci.herokuapp.com/) 

@@ -21,15 +21,15 @@ In practice, a combination of manual and automated testing is crucial for produc
 | --- | --- | --- | --- |
 | Welcome Page | None | N/A | ![HTML validator results for welcome page](images/w3-home.png) |
 | Login Page | None | N/A | ![HTML validator results for login page](images/w3-signin.png) |
-| Register Page | None | N/A | ![HTML validator results for register page](image-url) |
-| Password Reset Page | None | N/A | ![HTML validator results for password reset page](images/w3-forgot-password.pngl) |
+| Register Page | None | N/A | ![HTML validator results for register page](images/w3-register.png) |
+| Password Reset Page | None | N/A | ![HTML validator results for password reset page](images/w3-forgot-password.png) |
 | Products Page | None | N/A | ![HTML validator results for products page](images/w3-products.png) |
 | Product Details Page | None | N/A | ![HTML validator results for product details page](images/w3-product-item.png) |
 | Gallery Page | None | N/A | ![HTML validator results for gallery page](images/w3-gallery.png) |
 | Gallery Item Detail Page | None | N/A | ![HTML validator results for gallery details page](images/w3-galleryitem.png) |
 | Gallery Item Detail - Full Page View | None | N/A | ![HTML validator results for gallery details page - full page view](images/w3-gallery-full-image-view.png) |
 | Shopping Bag Page | None | N/A | ![HTML validator results for shopping bag page](images/w3-shopping-bag.png) |
-| Product management | None | N/A | ![HTML validator results for product management page](images/w3-product-management.pngl) |
+| Product management | None | N/A | ![HTML validator results for product management page](images/w3-product-management.png) |
 | Gallery management | None | N/A | ![HTML validator results for Gallery management page](images/w3-gallery-management.png) |
 | Log out Page | None | N/A | ![HTML validator results for log out page](images/w3-signout.png) |
 | Checkout Page | None | N/A | ![HTML validator results for Checkout page](images/w3-checkout.png) |
@@ -41,7 +41,7 @@ In practice, a combination of manual and automated testing is crucial for produc
 
 | File | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
-| base.css | ![CSS validator results for base.css](images/base-css-validator.png) |
+| base.css | None  | N/A  | ![CSS validator results for base.css](images/base-css-validator.png) |
 | checkout.css | None | N/A | ![CSS validator results for checkout.css](images/w3-checkout-css.pngl) |
 | profile.css | N/A | N/A | ![CSS validator results for profile.css](images/w3-profiles-css.png) |
 
@@ -63,7 +63,10 @@ In practice, a combination of manual and automated testing is crucial for produc
 
 #### Python Validator - [Code Institute Python Linter](https://pep8ci.herokuapp.com/) 
 
-I validated all Python code that isn't automatically generated using the Code Institute Python Linter, which returned no errors. As a result, I haven't included additional screenshots for these tests.
+I validated all Python code that isn't automatically generated using the Code Institute Python Linter and flakepep 8 within my terminal console. The only errors returned that havent been recified are two unused variables in the webhook.py flie. These have been left as I am not confident that they arent necessary. 
+![Variables flagged as unused by python validator]( images/pep9-errors.png) 
+
+
 
 ### Lighthouse
 

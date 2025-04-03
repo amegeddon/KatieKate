@@ -48,7 +48,7 @@ def all_gallery_images(request):
             )
             categories = Category.objects.filter(
                 name__in=categories
-            )  # Filter categories
+            )
 
         # Handle search query (if needed in the future)
         if "q" in request.GET:
@@ -163,7 +163,7 @@ def edit_gallery_image(request, image_id):
             messages.success(request, "Successfully updated gallery image!")
             return redirect(
                 reverse("gallery")
-            )  # Redirect to gallery instead of product detail
+            )
         else:
             messages.error(
                 request,

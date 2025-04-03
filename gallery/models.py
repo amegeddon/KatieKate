@@ -25,8 +25,4 @@ class GalleryImage(models.Model):
     )
 
     def __str__(self):
-        """
-        Returns the string representation of the GalleryImage instance.
-
-        """
         return self.title

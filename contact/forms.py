@@ -23,10 +23,6 @@ class ContactForm(forms.Form):
         Initializes the form and sets up crispy-forms layout, including setting
         the form method and form enctype for handling file uploads.
 
-        Args:
-            *args: Variable length argument list for form initialization.
-            **kwargs: Variable length keyword argument dictionary for form /
-            initialization.
         """
         super().__init__(*args, **kwargs)
 
@@ -34,7 +30,7 @@ class ContactForm(forms.Form):
         self.helper = FormHelper()
         self.helper.form_method = "post"
         self.helper.form_enctype = (
-            "multipart/form-data"  # For file upload handling
+            "multipart/form-data"  
         )
 
         # Add submit button with label 'Send Message'

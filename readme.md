@@ -196,24 +196,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop](images/t-welcome.png)           |
-| Products page                 | ![Screenshot of products page on laptop](images/t-products.png)            |
-| Product details page          | ![Screenshot of product details page on laptop](images/t-product-item.png)     |
-| Gallery page                  | ![Screenshot of gallery page on laptop](images/t-gallery.png)     |
-| Gallery details page          | ![Screenshot of gallery details page on laptop](images/t-gallery-item.png)     |
-| Gallery image full page view  | ![Screenshot of gallery details page on laptop](images/gallery-full-image.png)     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop](images/t-shopping-bag.png)        |
-| Checkout page                 | ![Screenshot of checkout page on laptop](images/L-checkout.png)            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop](images/t-checkout-success.png)    |
-| Profile page                  | ![Screenshot of profile page on laptop](images/t-profile.png)             |
-| Add product page       | ![Screenshot of product management page on laptop](images/t-product-add.png)  |
-| Product Management page             | ![Screenshot of add product page on laptop](images/t-product-item-add.png)         |
-| Edit product page            | ![Screenshot of add product page on laptop](images/t-product-edit.png)         |
-| Add Gallery Item page         | ![Screenshot of edit product page on laptop](images/t-gallery-add.png)        |
-| Edit Gallery Item page             | ![Screenshot of edit product page on laptop](images/t-gallery-edit.png)        |
-| Login page                    | ![Screenshot of login page laptop](images/t-login.png)                  |
-| Logout page                   | ![Screenshot of logout page laptop](images/t-logout.png)                 |
-| Register page                 | ![Screenshot of register page laptop](images/t-register.png)               |
+| Welcome page                  | ![Screenshot of welcome screen on tablet](images/t-welcome.png)           |
+| Products page                 | ![Screenshot of products page on tablet](images/t-products.png)            |
+| Product details page          | ![Screenshot of product details page on tablet](images/t-product-item.png)     |
+| Gallery page                  | ![Screenshot of gallery page on tablet](images/t-gallery.png)     |
+| Gallery details page          | ![Screenshot of gallery details page on tablet](images/t-gallery-item.png)     |
+| Gallery image full page view  | ![Screenshot of gallery details page on tablet](images/gallery-full-image.png)     |
+| Shopping bag page             | ![Screenshot of shopping bag page on tablet](images/t-shopping-bag.png)        |
+| Checkout page                 | ![Screenshot of checkout page on tablet](images/L-checkout.png)            |
+| Checkout success page         | ![Screenshot of checkout success page on tablet](images/t-checkout-success.png)    |
+| Profile page                  | ![Screenshot of profile page on tablet](images/t-profile.png)             |
+| Add product page       | ![Screenshot of product management page on tablet](images/t-product-add.png)  |
+| Product Management page             | ![Screenshot of add product page on tablet](images/t-product-item-add.png)         |
+| Edit product page            | ![Screenshot of add product page on tablet](images/t-product-edit.png)         |
+| Add Gallery Item page         | ![Screenshot of edit product page on tablet](images/t-gallery-add.png)        |
+| Edit Gallery Item page             | ![Screenshot of edit product page on tablet](images/t-gallery-edit.png)        |
+| Login page                    | ![Screenshot of login page tablet](images/t-login.png)                  |
+| Logout page                   | ![Screenshot of logout page tablet](images/t-logout.png)                 |
+| Register page                 | ![Screenshot of register page tablet](images/t-register.png)               |
 
 ---
 
@@ -221,24 +221,23 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 | Page                         | Screenshot                                                                 |
 |------------------------------|---------------------------------------------------------------------------|
-| Welcome page                  | ![Screenshot of welcome screen on laptop]()           |
-| Products page                 | ![Screenshot of products page on laptop]()            |
-| Product details page          | ![Screenshot of product details page on laptop]()     |
-| Gallery page                  | ![Screenshot of gallery page on laptop]()     |
-| Gallery details page          | ![Screenshot of gallery details page on laptop]()     |
+| Welcome page                  | ![Screenshot of welcome screen on laptop](images/m-welcome.png)           |
+| Products page                 | ![Screenshot of products page on laptop](images/m-products.png)            |
+| Product details page          | ![Screenshot of product details page on laptop](images/m-product-item.png)     |
+| Gallery page                  | ![Screenshot of gallery page on laptop](images/m-gallery.png)     |
+| Gallery details page          | ![Screenshot of gallery details page on laptop](images/m-gallery-item.png)     |
 | Gallery image full page view  | ![Screenshot of gallery details page on laptop]()     |
-| Shopping bag page             | ![Screenshot of shopping bag page on laptop]()        |
-| Checkout page                 | ![Screenshot of checkout page on laptop]()            |
-| Checkout success page         | ![Screenshot of checkout success page on laptop]()    |
+| Shopping bag page             | ![Screenshot of shopping bag page on laptop](images/m-shopping-bag.png)        |
+| Checkout page                 | ![Screenshot of checkout page on laptop](images/m-checkout.png)            |
+| Checkout success page         | ![Screenshot of checkout success page on laptop](images/m-checkout-success.png)    |
 | Profile page                  | ![Screenshot of profile page on laptop]()             |
-| Add product page       | ![Screenshot of product management page on laptop]()  |
-| Product Management page             | ![Screenshot of add product page on laptop]()         |
+| Add product page       | ![Screenshot of product management page on laptop](images/m-product-add.png)  |
 | Edit product page            | ![Screenshot of add product page on laptop]()         |
-| Add Gallery Item page         | ![Screenshot of edit product page on laptop]()        |
+| Add Gallery Item page         | ![Screenshot of edit product page on laptop](images/m-gallery-add.png)        |
 | Edit Gallery Item page             | ![Screenshot of edit product page on laptop]()        |
-| Login page                    | ![Screenshot of login page laptop]()                  |
-| Logout page                   | ![Screenshot of logout page laptop]()                 |
-| Register page                 | ![Screenshot of register page laptop]()               |
+| Login page                    | ![Screenshot of login page laptop](images/m-login.png)                  |
+| Logout page                   | ![Screenshot of logout page laptop](images/m-signout.png)                 |
+| Register page                 | ![Screenshot of register page laptop](images/m-register.png)               |
 
 
 <hr>

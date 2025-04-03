@@ -19,17 +19,22 @@ In practice, a combination of manual and automated testing is crucial for produc
 
 | Page | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
-| Welcome Page | None | N/A | <img src="" alt="HTML validator results for welcome page"> |
-| Login Page | None | N/A | <img src="" alt="HTML validator results for login page"> |
-| Register Page | None | N/A | <img src="" alt="HTML validator results for register page"> |
-| Password Reset Page | None | N/A | <img src="" alt="HTML validator results for password reset page"> |
-| Products Page | None | N/A | <img src="" alt="HTML validator results for products page"> |
-| Product Details Page | None | N/A | <img src="" alt="HTML validator results for product details page"> |
-| Gallery Page | None | N/A | <img src="" alt="HTML validator results for gallery page"> |
-| Gallery item Detail Page | None | N/A | <img src="" alt="HTML validator results for gallery details page"> |
-| Gallery item detail - full page view | None | N/A | <img src="" alt="HTML validator results for gallery details page - full page view"> |
-| Shopping Bag Page | None | N/A | <img src="" alt="HTML validator results for shopping bag page"> |
-
+| Welcome Page | None | N/A | ![HTML validator results for welcome page](images/w3-home.png) |
+| Login Page | None | N/A | ![HTML validator results for login page](images/w3-signin.png) |
+| Register Page | None | N/A | ![HTML validator results for register page](image-url) |
+| Password Reset Page | None | N/A | ![HTML validator results for password reset page](images/w3-forgot-password.pngl) |
+| Products Page | None | N/A | ![HTML validator results for products page](images/w3-products.png) |
+| Product Details Page | None | N/A | ![HTML validator results for product details page](images/w3-product-item.png) |
+| Gallery Page | None | N/A | ![HTML validator results for gallery page](images/w3-gallery.png) |
+| Gallery Item Detail Page | None | N/A | ![HTML validator results for gallery details page](images/w3-galleryitem.png) |
+| Gallery Item Detail - Full Page View | None | N/A | ![HTML validator results for gallery details page - full page view](images/w3-gallery-full-image-view.png) |
+| Shopping Bag Page | None | N/A | ![HTML validator results for shopping bag page](images/w3-shopping-bag.png) |
+| Product management | None | N/A | ![HTML validator results for product management page](images/w3-product-management.pngl) |
+| Gallery management | None | N/A | ![HTML validator results for Gallery management page](images/w3-gallery-management.png) |
+| Log out Page | None | N/A | ![HTML validator results for log out page](images/w3-signout.png) |
+| Checkout Page | None | N/A | ![HTML validator results for Checkout page](images/w3-checkout.png) |
+| Profile Page | None | N/A | ![HTML validator results for profile page](images/w3-profiles.png) |
+| Checkout Success Page | None | N/A | ![HTML validator results for Checkout success page](images/w3-checkout-success.png) |
 
 
 #### CSS Validator - [W3C](https://jigsaw.w3.org/css-validator/)

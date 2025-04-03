@@ -41,10 +41,11 @@ In practice, a combination of manual and automated testing is crucial for produc
 
 | File | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
-| base.css | <img src="" alt="CSS validator results for base.css"> | n/a | <img src="" alt="CSS validator results for base.css"> |
-| checkout.css | none | N/A | <img src="" alt="CSS validator results for checkout.css"> |
-| products.css | N/A | N/A | <img src="" alt="CSS validator results for products.css"> |
-| profile.css | N/A | N/A | <img src="" alt="CSS validator results for profile.css"> |
+| base.css | ![CSS validator results for base.css](image-url) | N/A | ![CSS validator results for base.css](image-url) |
+| checkout.css | None | N/A | ![CSS validator results for checkout.css](image-url) |
+| products.css | N/A | N/A | ![CSS validator results for products.css](image-url) |
+| profile.css | N/A | N/A | ![CSS validator results for profile.css](image-url) |
+
 
 #### JSHint Validator - [JSHint](https://jshint.com/)
 

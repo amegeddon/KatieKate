@@ -249,10 +249,10 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
 A search function allows customers to quickly find specific products, and clearly labeled buttons throughout the site further enhance seamless navigation.
 
-  <img src="" alt="Navbar">
-  <img src="" alt="Mobile navbar">
-  <img src="" alt="Sidenav">
-  <img src="" alt="Navigation buttons">
+ ![Navbar](images/l-nav.png)
+ ![Mobile navbar](images/m-nav.png)
+
+
 <hr>
 
 - Full account management including the ability to...
@@ -263,49 +263,45 @@ A search function allows customers to quickly find specific products, and clearl
 
 	The core account management functionality is powered by Django AllAuth, but the pages have been restyled to match the site's design and ensure full responsiveness.
 
-  <img src="" alt="Login page">
-  <img src="" alt="Logout page">
-  <img src="" alt="Register page">
-  <img src="" alt="Password reset page">
+   ![Password Reset](images/forgot-password.png)
 <hr>
 
 -A homepage designed to immediately communicate the site's purpose to the user.
 
-  <img src="" alt="Welcome page">
+  ![Welcome page ](images/hero-content.png)
 <hr>
 
-- A contact button is always accessible in the navbar or sidenav, providing users with a quick and convenient way to reach the store for any inquiries.
+- A contact button is always accessible in the navbar or navbar toggle on mobile view, providing users with a quick and convenient way to reach the store for any inquiries.
 
-  <img src="" alt="Navbar">
-  <img src="" alt="Sidenav">
+  ![Welcome page ](images/m-contact-button.png)
+  ![Welcome page ](images/contact-button.png)
 <hr>
 
 - A product page displaying essential product details and images, along with filtering and sorting options to help users easily browse and find items in the store. 
 
-  <img src="" alt="Products page">
-  <img src="" alt="Products sort dropdown">
+  ![Welcome page ](images/product-filter.png)
+  ![Welcome page ](images/contact-button.png)
 
 <hr>
 
 - A product details provides more indepth information about the product. It also shows reviews associated with that product. 
 
-  <img src="" alt="Product details page">
-  <img src="" alt="Product details page">
+  ![Welcome page ](images/m-contact-button.png)
+  ![Welcome page ](images/product-sort.png)
+  ![Welcome page ](images/m-product-filter.png)
 <hr>
 
--The ability to add items to the shopping bag, update quantities, or remove them as needed before making a purchase.
+-The ability to add items to the shopping bag, update quantities, or remove them as needed before making a purchase. Quantities can also be adjusted on the checkout view as well. 
 
-  <img src="" alt="Bag page">
-  <img src="" alt="Quantity selector">
+  ![Welcome page ](images/bag-quantity-selector.png)
+  ![Welcome page ](images/cart-quantity-selectore.png)
   
 <hr>
 
 - A secure checkout page, powered by Stripe, displaying an order summary and allowing registered users to save their details for future purchases.
 
-  <img src="" alt="Checkout Page">
-  <img src="" alt="Checkout Page">
-  <img src="" alt="Save info selector">
-  <img src="" alt="Stripe payment box">
+  ![Welcome page ](images/stipe1.png)
+  ![Welcome page ](images/stipe2.png)
 <hr>
 
 - A checkout success page providing order confirmation along with a detailed order summary.

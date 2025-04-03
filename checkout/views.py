@@ -196,7 +196,6 @@ def checkout_success(request, order_number):
         order.user_profile = profile
         order.save()
 
-        # Save the user's info
         if save_info:
             profile_data = {
                 "default_phone_number": order.phone_number,
@@ -228,10 +227,10 @@ def checkout_success(request, order_number):
 
     # Read the subject and body from the confirmation email files
     subject_file_path = os.path.join(
-        settings.BASE_DIR, "confirmation_email_subject.txt"
+        settings.BASE_DIR, "checkout", "templates", "checkout", "confirmation_emails", "confirmation_email_subject.txt"
     )
     body_file_path = os.path.join(
-        settings.BASE_DIR, "confirmation_email_body.txt"
+        settings.BASE_DIR, "checkout", "templates", "checkout", "confirmation_emails", "confirmation_email_body.txt"
     )
 
     # Read the content from the subject and body files

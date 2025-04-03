@@ -162,6 +162,12 @@ def checkout(request):
                 "Stripe public key is missing."
                 "Did you forget to set it in your environment?",
             )
+            
+          
+        print(f"Current Bag: {current_bag}")
+        print(f"Total from Bag: {total}")
+        print(f"Stripe Total (in cents): {stripe_total}")
+
 
         template = "checkout/checkout.html"
         context = {
@@ -215,10 +221,10 @@ def checkout_success(request, order_number):
     if "bag" in request.session:
         del request.session["bag"]
 
-# template = "checkout/checkout_success.html"  # unused variable
-# context = {  # unused variable - check this
-#     "order": order,
-# }
+    template = "checkout/checkout_success.html"  # unused variable
+    context = {  
+     "order": order,
+    }   
 
     # Read the subject and body from the confirmation email files
     subject_file_path = os.path.join(

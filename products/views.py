@@ -207,11 +207,10 @@ def special_offer_products(request, offer_name=None):
     categories = None
     query = None
     sort = None
-    direction = "asc"  # Default sorting direction is ascending
-    sortkey = "name"  # Default sort key is by name
-
+    direction = "asc"
+    sortkey = "name" 
     if request.GET:
-        # Handle sorting by different criteria
+        
         if "sort" in request.GET:
             sortkey = request.GET["sort"]
             sort = sortkey

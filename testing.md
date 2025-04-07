@@ -50,14 +50,15 @@ In practice, a combination of manual and automated testing is crucial for produc
 
 | File/Page | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
-| add_edit_product.js | N/A | N/A | ![JS Hint validator results for add_edit_product.js]( ) |
-| add_product.html | N/A | N/A | ![JS Hint validator results for add_product.html]( ) |
-| bag.html | N/A | N/A | ![JS Hint validator results for bag.html]() |
-| countryfield.js | N/A | N/A | ![JS Hint validator results for countryfield.js]( ) |
-| product_detail.html | N/A | N/A  | ![JS Hint validator results for product_detail.html]( ) |
-| product_management.html | N/A | N/A | ![JS Hint validator results for product_management.html]( ) |
-| products.html | N/A | N/A | ![JS Hint validator results for products.html]( ) |
-| stripe_element.js | N/A | N/A - The Stripe variable is defined outside the main file so no errors are caused in the terminal | ![JS Hint validator results for stripe_element.js]( ) |
+| edit_product.html | N/A | N/A | ![JS Hint validator results for add_edit_product.js](images/edit_product.html.png ) |
+| quantity_input_script.js | N/A | N/A | ![JS Hint validator results for quantity_input_script.js](images/quantity_inputscript.js.png) |
+| add_product.html | N/A | N/A | ![JS Hint validator results for add_product.html](images/add_products.html.png ) |
+| bag.html | N/A | N/A | ![JS Hint validator results for bag.html](images/bag.html-js.png) |
+| contact.html | N/A | N/A | ![JS Hint validator results for bag.html](images/contact.html-js.png) |
+| countryfield.js | N/A | N/A | ![JS Hint validator results for countryfield.js](images/countryfield.js.png ) |
+| special_offer_products.html | N/A | N/A | ![JS Hint validator results for special_offer_products.html](images/special_offers_products.html.png ) |
+| products.html | N/A | N/A | ![JS Hint validator results for products.html](images/products.html.png ) |
+| stripe_element.js | N/A | N/A - The Stripe variable is defined outside the main file so no errors are caused in the terminal | ![JS Hint validator results for stripe_element.js](images/stripe.js.png ) |
 
 
 
@@ -72,25 +73,26 @@ I validated all Python code that isn't automatically generated using the Code In
 
 Lighthouse in Chrome Developer Tools was utilised to assess the website's performance, accessibility, best practices, and SEO.
 
-| Page | Results |
-| --- | --- |
-| Add Product | <img src="" alt="Light house results for Add Product page"> |
-| Bag | <img src="" alt="Light house results for Bag page"> |
-| Checkout | <img src="" alt="Light house results for Checkout page"> |
-| Checkout Success | <img src="" alt="Light house results for Checkout Success page"> |
-| Edit Product | <img src="" alt="Light house results for Edit Product page"> |
-| Login | <img src="" alt="Light house results for Login page"> |
-| Logout | <img src="" alt="Light house results for Logout page"> |
-| Product Details | <img src="" alt="Light house results for Product Details page"> |
-| Product Management | <img src"" alt="Light house results for Product Management page"> |
-| Products | <img src="" alt="Light house results for Products page"> |
-| Gallery Item Details - Full page view | <img src="" alt="Light house results for GAllery Item Details page - full page view"> |
-| Gallery Item Details | <img src="" alt="Light house results for GAllery Item Details page"> |
-| Gallery Management | <img src"" alt="Light house results for Gallery Management page"> |
-| Gallery | <img src="" alt="Light house results for Gallery page"> |
-| Profile | <img src="" alt="Light house results for Profile page"> |
-| Register | <img src="" alt="Light house results for Register page"> |
-| Welcome | <img src="readme_and_testing_media/testing/welcomelh.png" alt="Light house results for Welcome page"> |
+| Page                                      | Results                                                                                   |
+|------------------------------------------|--------------------------------------------------------------------------------------------|
+| Add Product                              | ![]()                                    |
+| Bag                                      | ![]()                                            |
+| Checkout                                 | ![]()                                      |
+| Checkout Success                         | ![]()                               |
+| Edit Product                             | ![]()                                   |
+| Login                                    | ![]()                                         |
+| Logout                                   | ![]()                                        |
+| Product Details                          | ![]()                                |
+| Product Management                       | ![]()                             |
+| Products                                 | ![]()                                      |
+| Gallery Item Details - Full page view    | ![]()                    |
+| Gallery Item Details                     | ![]()                            |
+| Gallery Management                       | ![]()                             |
+| Gallery                                  | ![]()                                       |
+| Profile                                  | ![]()                                       |
+| Register                                 | ![]()                                      |
+| Welcome                                  | ![]()                                       |
+
 
 
 ## MANUAL TESTING

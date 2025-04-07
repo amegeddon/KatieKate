@@ -42,7 +42,7 @@ In practice, a combination of manual and automated testing is crucial for produc
 | File | Errors/Warnings | Solution | Image |
 | --- | --- | --- | --- |
 | base.css | None  | N/A  | ![CSS validator results for base.css](images/base-css-validator.png) |
-| checkout.css | None | N/A | ![CSS validator results for checkout.css](images/w3-checkout-css.pngl) |
+| checkout.css | None | N/A | ![CSS validator results for checkout.css](images/w3-checkout-css.png) |
 | profile.css | N/A | N/A | ![CSS validator results for profile.css](images/w3-profiles-css.png) |
 
 

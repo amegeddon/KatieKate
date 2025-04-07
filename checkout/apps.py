@@ -9,7 +9,8 @@ class CheckoutConfig(AppConfig):
     ensures that the signals module is imported when the app is ready.
     """
 
-    name = "checkout"
+    name = 'checkout'
 
     def ready(self):
-        pass
+        import checkout.signals
+

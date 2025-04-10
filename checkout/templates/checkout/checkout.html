@@ -2,6 +2,13 @@
 {% load static %}
 {% load bag_tools %}
 
+{% block extra_meta %}
+<meta name="description" content="Checkout page of KatieKate website">
+<meta name="keywords" content="Checkout, update quantity, Upholstery Services">
+<meta name="author" content="KatieKate">
+{% endblock %}
+
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
@@ -49,7 +56,6 @@
                         </div>
                         <div class="col-7">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0 small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">

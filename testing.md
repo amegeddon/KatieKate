@@ -75,23 +75,22 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 
 | Page                                      | Results                                                                                   |
 |------------------------------------------|--------------------------------------------------------------------------------------------|
-| Add Product                              | ![]()                                    |
-| Bag                                      | ![]()                                            |
-| Checkout                                 | ![]()                                      |
-| Checkout Success                         | ![]()                               |
-| Edit Product                             | ![]()                                   |
-| Login                                    | ![]()                                         |
-| Logout                                   | ![]()                                        |
-| Product Details                          | ![]()                                |
-| Product Management                       | ![]()                             |
-| Products                                 | ![]()                                      |
+| Add Product                              | ![](images/product-add-lighthouse.png)         |
+| Bag                                      | ![](images/bag-lighthouse.png)                 |
+| Checkout                                 | ![](images/checkout-lighthouse.png)            |
+| Contact                                  | ![](images/lighthouse-contact.png)             |
+| Edit Product                             | ![](images/edit-lighthouse.png)                |
+| Login                                    | ![](images/login-lighthouse.png)               |
+| Product Details                          | ![](images/product-detail-lighthouse.png)      |
+| Product Management                       | ![](images/productmanagemnet-lighthouse.png)   |
+| Products                                 | ![](images/products-list-lighthouse.png)                                      |
 | Gallery Item Details - Full page view    | ![]()                    |
-| Gallery Item Details                     | ![]()                            |
-| Gallery Management                       | ![]()                             |
-| Gallery                                  | ![]()                                       |
-| Profile                                  | ![]()                                       |
-| Register                                 | ![]()                                      |
-| Welcome                                  | ![]()                                       |
+| Gallery Item Details                     | ![](images/gallery-detail-lighthouse.png)      |
+| Gallery Management                       | ![](images/gallerymanagement-lighthouse.png)   |
+| Gallery                                  | ![](images/gallery-lighthouse.png)             |
+| Profile                                  | ![](images/profiles-lighthouse.png)            |
+| Register                                 | ![](images/signup-lighthouse.png)              |
+| Welcome                                  | ![](images/lighthouse-welcome.png)             |
 
 
 
@@ -99,369 +98,65 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 
 ### Testing User Stories
 
-<table>
-    <thead>
-        <tr>
-            <th>As a...</th>
-            <th>I want to be able to…</th>
-            <th>This is achieved by...</th>
-            <th>Image</th>
-        </tr>
-        <tr>
-            <th colspan="4">Viewing and Navigation</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>User</td>
-            <td>Have an immediate understanding as to the purpose of the site</td>
-            <td>Deduce quickly whether this is the right website for me</td>
-            <td><img src=""
-                    alt="Screenshot of welcome screen on laptop"></td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>View current list of products for sale</td>
-            <td>A product listing page displaying all available items with search and sorting functionality.</td>
-            <td><img src=""
-                    alt="Screenshot of products page on laptop"></td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>View individual product details</td>
-            <td>The products details page</td>
-            <td><img src=""
-                    alt="Screenshot of product details page on laptop"></td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>View individual Gallery Item details</td>
-            <td>The gallery item details page contains descriptions and clicking on the image takes the user to a full screen rendering of the image where they can scroll through all the gallery images</td>
-            <img src=""
-                    alt="Screenshot of gallery item details">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Quickly identify deals, clearance items and special offers</td>
-            <td>A prominently placed dropdown link for special offers.</td>
-            </tr>
-            <img src=""
-                    alt="Screenshot of special offers dropdown">
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Easily check the total cost of your purchases anytime.</td>  
-            <td>The navbar features a basket icon displaying the total purchase amount.</td>           <
-            <img src="readme_and_testing_media/accountdropdown.png"
-                    alt="Screenshot of basket spend">
-            </td>
-        </tr>
-    </tbody>
-    <thead>
-        <tr>
-            <th colspan="4">Registration and User Accounts</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Registered User</td>
-            <td>Easily register for an account</td>
-            <td>A prominently displayed register link in the account dropdown.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of account menu dropdown ">
-            </td>
-        </tr>
-        <tr>
-            <td>Registered User</td>
-            <td>Easily login or logout</td>
-            <td>The login and logout buttons are easily accessible from the account dropdown in the navbar</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of account dropdown">
-            </td>
-        </tr>
-        <tr>
-            <td>Registered User</td>
-            <td>Easily recover my password in case I forget it</td>
-            <td>The login page features a clearly visible "Forgot my password" link for password recovery.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of login page with recover password link">
-            </td>
-        </tr>
-        <tr>
-            <td>Registered User</td>
-            <td>Receive an email confirmation after registering</td>
-            <td>An email is sent upon registration, requiring verification by clicking the link provided.
-            </td>
-            <td>
-                <img src=""
-                    alt="Screenshot of registration email">
-            </td>
-        </tr>
-        <tr>
-            <td>Registered User</td>
-            <td>Have a personalised user profile</td>
-            <td>The user profile displays default delivery information and order history.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of profile page">
-            </td>
-        </tr>
-        <tr>
-            <td>Registered User</td>
-            <td>Verify my email address with the site</td>
-            <td>All email addresses must be verified upon new account registration</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of registration email">
-            </td>
-        </tr>
-        <tr>
-            <td>Registered User</td>
-            <td>See my past order history</td>
-            <td>Profile page displays past order history alongside default user address</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of profile page">
-            </td>
-        </tr>
-    </tbody>
-    <thead>
-        <tr>
-            <th colspan="4">Sorting and Searching</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>User</td>
-            <td>Sort the list of available products</td>
-            <td>Products can be sorted using various filters on the main products page and are also categorized in the navbar.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of sort box">
-                <img src=""
-                    alt="Screenshot of navbar">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Search for a product by name or description</td>
-            <td>Users can search for products by keyword using the search bar at the top of the website.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of searchbar">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Store my billing and delivery details</td>
-            <td>Users can update these anytime via their profile page or by using the save button on the checkout page.<td>
-                <img src=""
-                    alt="Screenshot of profile page">
-                <img src=""
-                    alt="Screenshot of save info button">
-            </td>
-        </tr>
-        <tr>
-            <td>Shopper</td>
-            <td>Delete my reviews</td>
-            <td>Reviews can be deleted in the users profile page</td>
-            <td>
-                <img src="readme_and_testing_media/profile3-tablet.png"
-                    alt="Screenshot of profile page">
-            </td>
-        </tr>
-    </tbody>
-    <thead>
-        <tr>
-            <th colspan="4">Purchasing and Checkout</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>User</td>
-            <td>Easily select and add to bag the correct product and quantity</td>
-            <td>Quantity selector buttons and a prominently placed "Add to Bag" button ensure easy selection of the correct product and quantity</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of quantity selector and add to cart button">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>See the items in my shopping bag before purchasing</td>
-            <td>Clicking the shopping bag icon directs the user to their shopping bag to view selected items.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of bag page">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>View the total cost of my purchases before checking out</td>
-            <td>The total cost is shown in the cart basket icon on the navbar and on the checkout page.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of bag page">
-                <img src=""
-                    alt="Screenshot of basket icon">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Modify the quantity of items in my bag</td>
-            <td>Items in the shopping bag can be effortlessly updated or removed using the quantity update button on the checkout pag</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of checkout page">
-                <img src=""
-                    alt="Screenshot of quantity selector within products page view">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Easily enter my payment information</td>
-            <td>At checkout, Stripe provides a streamlined and secure payment entry box for a hassle-free transaction experience.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of checkout page">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Trust that my personal and payment information is secure</td>
-            <td>The checkout button clearly indicates a secure transaction, reassuring customers of their safety. Additionally, Stripe’s trusted reputation enhances confidence in the payment process.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of stripe">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>See an order confirmation at checkout</td>
-            <td>After completing checkout, the customer is redirected to an order confirmation page and also receives a confirmation email.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of checkout success page">
-                <img src=""
-                    alt="Screenshot of order confirmation email">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Receive an email confirmation after checking out</td>
-            <td>Customers receive an instant confirmation email as soon as their order is successfully placed.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of order confirmation email">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Contact the store easily with any questions for quotations of reupholster</td>
-            <td>Users can easily contact the store by clicking the contact icon in the navbar, allowing them to send messages directly.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of navbar icons">
-                <img src=""
-                    alt="Screenshot of contact modal">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Quickly check if there are items in my shopping basket/td>
-            <td>On larger screens, the shopping bag icon displays the total price of items in the bag, while on smaller screens, a dedicated icon appears within the navbar toggler for easy access.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of navbar">
-                <img src=""
-                    alt="Screenshot of mobile navbar">
-                <img src=""
-                    alt="Screenshot of sidenav">
-            </td>
-        </tr>
-        <tr>
-            <td>User</td>
-            <td>Checkout without needing to register for an account</td>
-            <td>Guests can check out without an account, with an option to sign up for future convenience.<td>
-                <img src=""
-                    alt="Screenshot of checkout page">
-            </td>
-        </tr>
-    </tbody>
-    <thead>
-        <tr>
-            <th colspan="4">Admin and Store Management</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Store Owner/Staff Member</td>
-            <td>Add a product</td>
-            <td>New products can be easily added through the product management section.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of product management">
-                <img src=""
-                    alt="Screenshot of add product">
-            </td>
-        </tr>
-        <tr>
-            <td>Store Owner/Staff Member</td>
-            <td>Edit/Update a product</td>
-            <td>Products can be easily edited and updated in the product management section</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of edit product">
-            </td>
-        </tr>
-        <tr>
-            <td>Store Owner/Staff Member</td>
-            <td>Delete a product</td>
-            <td>Products can be removed easily from the store using the product management section.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of product management">
-                <img src=""
-                    alt="Screenshot of delete product modal">
-            </td>
-        </tr>
-         <tr>
-            <td>Store Owner/Staff Member</td>
-            <td>Add a Gallery Item</td>
-            <td>New Gallery items can be easily added through the Gallery management section.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of gallery management">
-                <img src=""
-                    alt="Screenshot of add gallery item">
-            </td>
-        </tr>
-        <tr>
-            <td>Store Owner/Staff Member</td>
-            <td>Edit/Update a Gallery Item</td>
-            <td>Gallery items can be easily edited and updated in the Gallery management section</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of edit gallery item">
-            </td>
-        </tr>
-        <tr>
-            <td>Store Owner/Staff Member</td>
-            <td>Delete a Gallery item</td>
-            <td>Gallery items can be removed easily from the store using the product management section.</td>
-            <td>
-                <img src=""
-                    alt="Screenshot of product management">
-                <img src=""
-                    alt="Screenshot of delete product modal">
-            </td>
-        </tr>
-    </tbody>
-</table>
+### Viewing and Navigation
+
+| As a... | I want to be able to… | This is achieved by... | Image |
+|--------|------------------------|-------------------------|-------|
+| User | Have an immediate understanding as to the purpose of the site | Deduce quickly whether this is the right website for me | ![](image-url) |
+| User | View current list of products for sale | A product listing page displaying all available items with search and sorting functionality. | ![](image-url) |
+| User | View individual product details | The products details page | ![](image-url) |
+| User | View individual Gallery Item details | The gallery item details page contains descriptions and clicking on the image takes the user to a full screen rendering of the image where they can scroll through all the gallery images | ![](image-url) |
+| User | Quickly identify deals, clearance items and special offers | A prominently placed dropdown link for special offers. | ![](image-url) |
+| User | Easily check the total cost of your purchases anytime. | The navbar features a basket icon displaying the total purchase amount. | ![](readme_and_testing_media/accountdropdown.png) |
+
+### Registration and User Accounts
+
+| As a... | I want to be able to… | This is achieved by... | Image |
+|--------|------------------------|-------------------------|-------|
+| Registered User | Easily register for an account | A prominently displayed register link in the account dropdown. | ![](image-url) |
+| Registered User | Easily login or logout | The login and logout buttons are easily accessible from the account dropdown in the navbar | ![](image-url) |
+| Registered User | Easily recover my password in case I forget it | The login page features a clearly visible "Forgot my password" link for password recovery. | ![](image-url) |
+| Registered User | Receive an email confirmation after registering | An email is sent upon registration, requiring verification by clicking the link provided. | ![](image-url) |
+| Registered User | Have a personalised user profile | The user profile displays default delivery information and order history. | ![](image-url) |
+| Registered User | Verify my email address with the site | All email addresses must be verified upon new account registration | ![](image-url) |
+| Registered User | See my past order history | Profile page displays past order history alongside default user address | ![](image-url) |
+
+### Sorting and Searching
+
+| As a... | I want to be able to… | This is achieved by... | Image |
+|--------|------------------------|-------------------------|-------|
+| User | Sort the list of available products | Products can be sorted using various filters on the main products page and are also categorized in the navbar. | ![](image-url)<br>![](image-url) |
+| User | Search for a product by name or description | Users can search for products by keyword using the search bar at the top of the website. | ![](image-url) |
+| User | Store my billing and delivery details | Users can update these anytime via their profile page or by using the save button on the checkout page. | ![](image-url)<br>![](image-url) |
+| Shopper | Delete my reviews | Reviews can be deleted in the users profile page | ![](readme_and_testing_media/profile3-tablet.png) |
+
+### Purchasing and Checkout
+
+| As a... | I want to be able to… | This is achieved by... | Image |
+|--------|------------------------|-------------------------|-------|
+| User | Easily select and add to bag the correct product and quantity | Quantity selector buttons and a prominently placed "Add to Bag" button ensure easy selection of the correct product and quantity | ![](image-url) |
+| User | See the items in my shopping bag before purchasing | Clicking the shopping bag icon directs the user to their shopping bag to view selected items. | ![](image-url) |
+| User | View the total cost of my purchases before checking out | The total cost is shown in the cart basket icon on the navbar and on the checkout page. | ![](image-url)<br>![](image-url) |
+| User | Modify the quantity of items in my bag | Items in the shopping bag can be effortlessly updated or removed using the quantity update button on the checkout page | ![](image-url)<br>![](image-url) |
+| User | Easily enter my payment information | At checkout, Stripe provides a streamlined and secure payment entry box for a hassle-free transaction experience. | ![](image-url) |
+| User | Trust that my personal and payment information is secure | The checkout button clearly indicates a secure transaction, reassuring customers of their safety. Additionally, Stripe’s trusted reputation enhances confidence in the payment process. | ![](image-url) |
+| User | See an order confirmation at checkout | After completing checkout, the customer is redirected to an order confirmation page and also receives a confirmation email. | ![](image-url)<br>![](image-url) |
+| User | Receive an email confirmation after checking out | Customers receive an instant confirmation email as soon as their order is successfully placed. | ![](image-url) |
+| User | Contact the store easily with any questions for quotations or reupholster | Users can easily contact the store by clicking the contact icon in the navbar, allowing them to send messages directly. | ![](image-url)<br>![](image-url) |
+| User | Quickly check if there are items in my shopping basket | On larger screens, the shopping bag icon displays the total price of items in the bag, while on smaller screens, a dedicated icon appears within the navbar toggler for easy access. | ![](image-url)<br>![](image-url)<br>![](image-url) |
+| User | Checkout without needing to register for an account | Guests can check out without an account, with an option to sign up for future convenience. | ![](image-url) |
+
+### Admin and Store Management
+
+| As a... | I want to be able to… | This is achieved by... | Image |
+|--------|------------------------|-------------------------|-------|
+| Store Owner/Staff Member | Add a product | New products can be easily added through the product management section. | ![](image-url)<br>![](image-url) |
+| Store Owner/Staff Member | Edit/Update a product | Products can be easily edited and updated in the product management section | ![](image-url) |
+| Store Owner/Staff Member | Delete a product | Products can be removed easily from the store using the product management section. | ![](image-url)<br>![](image-url) |
+| Store Owner/Staff Member | Add a Gallery Item | New Gallery items can be easily added through the Gallery management section. | ![](image-url)<br>![](image-url) |
+| Store Owner/Staff Member | Edit/Update a Gallery Item | Gallery items can be easily edited and updated in the Gallery management section | ![](image-url) |
+| Store Owner/Staff Member | Delete a Gallery item | Gallery items can be removed easily from the store using the product management section. | ![](image-url)<br>![](image-url) |
+
 
 
 ### Devices Used For Testing

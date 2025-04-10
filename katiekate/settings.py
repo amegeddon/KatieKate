@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'profiles',
     'gallery',
     'contact',
+    'csp',
 
     # other
     'crispy_forms',
@@ -75,6 +76,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'csp.middleware.CSPMiddleware',
 ]
 
 ROOT_URLCONF = 'katiekate.urls'
@@ -247,10 +249,35 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 # Content Security Policy
 CSP_DEFAULT_SRC = ("'self'",)
-CSP_SCRIPT_SRC = ("'self'", "https://js.stripe.com")
 
+CSP_SCRIPT_SRC = (
+    "'self'",
+    "https://cdn.jsdelivr.net",
+    "https://js.stripe.com",
+    "https://kit.fontawesome.com",
+    "https://code.jquery.com",
+    "'unsafe-inline'",
+)
+
+CSP_STYLE_SRC = (
+    "'self'",
+    "https://fonts.googleapis.com",
+    "https://cdn.jsdelivr.net",
+    "'unsafe-inline'",
+)
+
+CSP_FONT_SRC = ("'self'", "https://fonts.gstatic.com")
+CSP_IMG_SRC = ("'self'", "data:", "blob:")
+CSP_FRAME_SRC = ("https://js.stripe.com",)
+CSP_CONNECT_SRC = ("'self'",)
+CSP_OBJECT_SRC = ("'none'",)
+CSP_BASE_URI = ("'self'",)
+CSP_FORM_ACTION = ("'self'",)
+
+# Security headers
 SECURE_HSTS_SECONDS = 63072000  # 2 years
 SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
-SECURE_SSL_REDIRECT = True  # Force HTTPS
+SECURE_SSL_REDIRECT = True
+
 

@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_meta %}
+<meta name="description" content="Profile view on KatieKate website">
+<meta name="keywords" content="Reupholstery, Telford, Upholstery Services, user profile">
+<meta name="author" content="KatieKate">
+{% endblock %}
+
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
 {% endblock %}

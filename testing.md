@@ -55,8 +55,8 @@ In practice, a combination of manual and automated testing is crucial for produc
 | add_product.html | N/A | N/A | ![JS Hint validator results for add_product.html](images/add_products.html.png ) |
 | bag.html | N/A | N/A | ![JS Hint validator results for bag.html](images/bag.html-js.png) |
 | contact.html | N/A | N/A | ![JS Hint validator results for bag.html](images/contact.html-js.png) |
-| countryfield.js | N/A | N/A | ![JS Hint validator results for countryfield.js](images/countryfield.js.png ) |
-| special_offer_products.html | N/A | N/A | ![JS Hint validator results for special_offer_products.html](images/special_offers_products.html.png ) |
+| countryfield.js | N/A | N/A | ![JS Hint validator results for countryfield.js](images/countryfield.js.png) |
+| special_offer_products.html | N/A | N/A | ![JS Hint validator results for special_offer_products.html](images/special_offers_products.html.png) |
 | products.html | N/A | N/A | ![JS Hint validator results for products.html](images/products.html.png ) |
 | stripe_element.js | N/A | N/A - The Stripe variable is defined outside the main file so no errors are caused in the terminal | ![JS Hint validator results for stripe_element.js](images/stripe.js.png ) |
 

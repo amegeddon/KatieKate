@@ -102,20 +102,20 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| User | Have an immediate understanding as to the purpose of the site | Deduce quickly whether this is the right website for me | ![](image-url) |
-| User | View current list of products for sale | A product listing page displaying all available items with search and sorting functionality. | ![](image-url) |
-| User | View individual product details | The products details page | ![](image-url) |
-| User | View individual Gallery Item details | The gallery item details page contains descriptions and clicking on the image takes the user to a full screen rendering of the image where they can scroll through all the gallery images | ![](image-url) |
-| User | Quickly identify deals, clearance items and special offers | A prominently placed dropdown link for special offers. | ![](image-url) |
-| User | Easily check the total cost of your purchases anytime. | The navbar features a basket icon displaying the total purchase amount. | ![](readme_and_testing_media/accountdropdown.png) |
+| User | Have an immediate understanding as to the purpose of the site | Deduce quickly whether this is the right website for me | ![](images/t1) |
+| User | View current list of products for sale | A product listing page displaying all available items with search and sorting functionality. | ![](images/t2) |
+| User | View individual product details | The products details page | ![](images/t3) |
+| User | View individual Gallery Item details | The gallery item details page contains descriptions and clicking on the image takes the user to a full screen rendering of the image where they can scroll through all the gallery images | ![](images/t4) |
+| User | Quickly identify deals, clearance items and special offers | A prominently placed dropdown link for special offers. | ![](images/t5) |
+| User | Easily check the total cost of your purchases anytime. | The navbar features a basket icon displaying the total purchase amount. | ![](images/t6) |
 
 ### Registration and User Accounts
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| Registered User | Easily register for an account | A prominently displayed register link in the account dropdown. | ![](image-url) |
-| Registered User | Easily login or logout | The login and logout buttons are easily accessible from the account dropdown in the navbar | ![](image-url) |
-| Registered User | Easily recover my password in case I forget it | The login page features a clearly visible "Forgot my password" link for password recovery. | ![](image-url) |
+| Registered User | Easily register for an account | A prominently displayed register link in the account dropdown. | ![](images/t7) |
+| Registered User | Easily login or logout | The login and logout buttons are easily accessible from the account dropdown in the navbar | ![](images/t8) |
+| Registered User | Easily recover my password in case I forget it | The login page features a clearly visible "Forgot my password" link for password recovery. | ![](images/t9) |
 | Registered User | Receive an email confirmation after registering | An email is sent upon registration, requiring verification by clicking the link provided. | ![](image-url) |
 | Registered User | Have a personalised user profile | The user profile displays default delivery information and order history. | ![](image-url) |
 | Registered User | Verify my email address with the site | All email addresses must be verified upon new account registration | ![](image-url) |

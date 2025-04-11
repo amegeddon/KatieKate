@@ -249,31 +249,34 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 # Content Security Policy
-CSP_DEFAULT_SRC = ("'self'",)
+CONTENT_SECURITY_POLICY = {
+    'DIRECTIVES': {
+        'default-src': ("'self'",),
+        'script-src': (
+            "'self'",
+            'https://cdn.jsdelivr.net',
+            'https://js.stripe.com',
+            'https://kit.fontawesome.com',
+            'https://code.jquery.com',
+            "'unsafe-inline'",
+        ),
+        'style-src': (
+            "'self'",
+            'https://fonts.googleapis.com',
+            'https://cdn.jsdelivr.net',
+            "'unsafe-inline'",
+        ),
+        'img-src': ("'self'", 'data:', 'blob:'),
+        'connect-src': ("'self'",),
+        'font-src': ("'self'", 'https://fonts.gstatic.com'),
+        'object-src': ("'none'",),
+        'base-uri': ("'self'",),
+        'form-action': ("'self'",),
+        'frame-src': ('https://js.stripe.com',),
+        'report-uri': '/csp-report/',
+    }
+}
 
-CSP_SCRIPT_SRC = (
-    "'self'",
-    "https://cdn.jsdelivr.net",
-    "https://js.stripe.com",
-    "https://kit.fontawesome.com",
-    "https://code.jquery.com",
-    "'unsafe-inline'",
-)
-
-CSP_STYLE_SRC = (
-    "'self'",
-    "https://fonts.googleapis.com",
-    "https://cdn.jsdelivr.net",
-    "'unsafe-inline'",
-)
-
-CSP_FONT_SRC = ("'self'", "https://fonts.gstatic.com")
-CSP_IMG_SRC = ("'self'", "data:", "blob:")
-CSP_FRAME_SRC = ("https://js.stripe.com",)
-CSP_CONNECT_SRC = ("'self'",)
-CSP_OBJECT_SRC = ("'none'",)
-CSP_BASE_URI = ("'self'",)
-CSP_FORM_ACTION = ("'self'",)
 
 # Security headers
 SECURE_HSTS_SECONDS = 63072000  # 2 years
@@ -281,5 +284,10 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = True
 SECURE_HSTS_PRELOAD = True
 SECURE_SSL_REDIRECT = True
 
-CSP_REPORT_URI = '/csp-report/'
+CONTENT_SECURITY_POLICY = {
+    'DIRECTIVES': {
+        'report-uri': '/csp-report/',
+    }
+}
+
 

@@ -133,7 +133,7 @@ The main considerations for the font were aesthetics and accessibility. I chose 
 
   - ##### Welcome Image
     The welcome/hero image is from adobe stock images and has been properly licensed for use. 
-    ![Welcome/hero image](AdobeStock_1214311757.jpeg)
+    ![Welcome/hero image](images/AdobeStock_1214311757.jpeg)
 
 
   - #### Product Images

@@ -123,7 +123,7 @@ def add_gallery_image(request):
     if request.method == "POST":
         form = GalleryForm(request.POST, request.FILES)
         if form.is_valid():
-            #        gallery_image = form.save() - unused variable
+            gallery_image = form.save()
             messages.success(request, "Successfully added Gallery Item!")
             return redirect(reverse("gallery"))
         else:

@@ -5,7 +5,7 @@ KatieKate&Co was created as my fourth and final milestone project for the Code I
 
 [View the live project here.](https://katiekate-729242823673.herokuapp.com/)
 
-![Image of KatieKate&Co website on different devices]( "")
+![Image of KatieKate&Co website on different devices](images/responsive.png)
 
 ## User Experience (UX) 
 

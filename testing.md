@@ -116,7 +116,7 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 | Registered User | Easily register for an account | A prominently displayed register link in the account dropdown. | ![](images/t7.png) |
 | Registered User | Easily login or logout | The login and logout buttons are easily accessible from the account dropdown in the navbar | ![](images/t8.png) |
 | Registered User | Easily recover my password in case I forget it | The login page features a clearly visible "Forgot my password" link for password recovery. | ![](images/t9.png) |
-| Registered User | Receive an email confirmation after registering | An email is sent upon registration, requiring verification by clicking the link provided. | ![](images/10.png)<br> ![](images/11.png)  |
+| Registered User | Receive an email confirmation after registering | An email is sent upon registration, requiring verification by clicking the link provided. | ![](images/t10.png)<br> ![](images/t11.png)  |
 | Registered User | Have a personalised user profile | The user profile displays default delivery information and order history. | ![](images/t12.png) |
 | Registered User | Verify my email address with the site | All email addresses must be verified upon new account registration | ![](images/t13.png) |
 | Registered User | See my past order history | Profile page displays past order history alongside default user address | ![](images/t14.png) |

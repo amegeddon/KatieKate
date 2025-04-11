@@ -142,7 +142,7 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 | User | See an order confirmation at checkout | After completing checkout, the customer is redirected to an order confirmation page and also receives a confirmation email. | ![](images/t24.png)|
 | User | Receive an email confirmation after checking out | Customers receive an instant confirmation email as soon as their order is successfully placed. | ![](images/t25.png) |
 | User | Contact the store easily with any questions for quotations or reupholster | Users can easily contact the store by clicking the contact icon in the navbar, allowing them to send messages directly. | ![](images/t26.png)|
-| User | Quickly check if there are items in my shopping basket | On larger screens, the shopping bag icon displays the total price of items in the bag, while on smaller screens, a dedicated icon appears within the navbar toggler for easy access. | ![](images/27.png)<br>![](images/28.png) |
+| User | Quickly check if there are items in my shopping basket | On larger screens, the shopping bag icon displays the total price of items in the bag, while on smaller screens, a dedicated icon appears within the navbar toggler for easy access. | ![](images/t27.png)<br>![](images/t28.png) |
 | User | Checkout without needing to register for an account | Guests can check out without an account, with an option to sign up for future convenience. | ![](images/t29.png) |
 
 ### Admin and Store Management

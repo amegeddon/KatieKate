@@ -287,6 +287,7 @@ SECURE_SSL_REDIRECT = True
 CONTENT_SECURITY_POLICY = {
     'DIRECTIVES': {
         'report-uri': '/csp-report/',
+        'script-src': ["'self'", "'unsafe-inline'"],
     }
 }
 

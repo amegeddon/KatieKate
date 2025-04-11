@@ -102,57 +102,57 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| User | Have an immediate understanding as to the purpose of the site | Deduce quickly whether this is the right website for me | ![](images/t1) |
-| User | View current list of products for sale | A product listing page displaying all available items with search and sorting functionality. | ![](images/t2) |
-| User | View individual product details | The products details page | ![](images/t3) |
-| User | View individual Gallery Item details | The gallery item details page contains descriptions and clicking on the image takes the user to a full screen rendering of the image where they can scroll through all the gallery images | ![](images/t4) |
-| User | Quickly identify deals, clearance items and special offers | A prominently placed dropdown link for special offers. | ![](images/t5) |
-| User | Easily check the total cost of your purchases anytime. | The navbar features a basket icon displaying the total purchase amount. | ![](images/t6) |
+| User | Have an immediate understanding as to the purpose of the site | Deduce quickly whether this is the right website for me | ![](images/t1.png) |
+| User | View current list of products for sale | A product listing page displaying all available items with search and sorting functionality. | ![](images/t2.png) |
+| User | View individual product details | The products details page | ![](images/t3.png) |
+| User | View individual Gallery Item details | The gallery item details page contains descriptions and clicking on the image takes the user to a full screen rendering of the image where they can scroll through all the gallery images | ![](images/t4.png) |
+| User | Quickly identify deals, clearance items and special offers | A prominently placed dropdown link for special offers. | ![](images/t5.png) |
+| User | Easily check the total cost of your purchases anytime. | The navbar features a basket icon displaying the total purchase amount. | ![](images/t6.png) |
 
 ### Registration and User Accounts
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| Registered User | Easily register for an account | A prominently displayed register link in the account dropdown. | ![](images/t7) |
-| Registered User | Easily login or logout | The login and logout buttons are easily accessible from the account dropdown in the navbar | ![](images/t8) |
-| Registered User | Easily recover my password in case I forget it | The login page features a clearly visible "Forgot my password" link for password recovery. | ![](images/t9) |
-| Registered User | Receive an email confirmation after registering | An email is sent upon registration, requiring verification by clicking the link provided. | ![](images/10)<br> ![](images/11)  |
-| Registered User | Have a personalised user profile | The user profile displays default delivery information and order history. | ![](images/t12) |
-| Registered User | Verify my email address with the site | All email addresses must be verified upon new account registration | ![](images/t13) |
-| Registered User | See my past order history | Profile page displays past order history alongside default user address | ![](images/t14) |
+| Registered User | Easily register for an account | A prominently displayed register link in the account dropdown. | ![](images/t7.png) |
+| Registered User | Easily login or logout | The login and logout buttons are easily accessible from the account dropdown in the navbar | ![](images/t8.png) |
+| Registered User | Easily recover my password in case I forget it | The login page features a clearly visible "Forgot my password" link for password recovery. | ![](images/t9.png) |
+| Registered User | Receive an email confirmation after registering | An email is sent upon registration, requiring verification by clicking the link provided. | ![](images/10.png)<br> ![](images/11.png)  |
+| Registered User | Have a personalised user profile | The user profile displays default delivery information and order history. | ![](images/t12.png) |
+| Registered User | Verify my email address with the site | All email addresses must be verified upon new account registration | ![](images/t13.png) |
+| Registered User | See my past order history | Profile page displays past order history alongside default user address | ![](images/t14.png) |
 
 ### Sorting and Searching
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| User | Sort the list of available products | Products can be sorted using various filters on the main products page and are also categorized in the navbar. | ![](images/t15) |
-| User | Search for a product by name or description | Users can search for products by keyword using the search bar at the top of the website. | ![](images/t16) |
-| User | Store my billing and delivery details | Users can update these anytime via their profile page or by using the save button on the checkout page. | ![](images/t17) |
+| User | Sort the list of available products | Products can be sorted using various filters on the main products page and are also categorized in the navbar. | ![](images/t15.png) |
+| User | Search for a product by name or description | Users can search for products by keyword using the search bar at the top of the website. | ![](images/t16.png) |
+| User | Store my billing and delivery details | Users can update these anytime via their profile page or by using the save button on the checkout page. | ![](images/t17.png) |
 
 
 ### Purchasing and Checkout
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| User | Easily select and add to bag the correct product and quantity | Quantity selector buttons and a prominently placed "Add to Bag" button ensure easy selection of the correct product and quantity | ![](images/t18) |
-| User | See the items in my shopping bag before purchasing | Clicking the shopping bag icon directs the user to their shopping bag to view selected items. | ![](images/t19) |
-| User | View the total cost of my purchases before checking out | The total cost is shown in the cart basket icon on the navbar and on the checkout page. | ![](images/t20)<br>![](images/t21) |
-| User | Modify the quantity of items in my bag | Items in the shopping bag can be effortlessly updated or removed using the quantity update button on the checkout page | ![](images/t22) |
-| User | Easily enter my payment information | At checkout, Stripe provides a streamlined and secure payment entry box for a hassle-free transaction experience. | ![](images/23) |
-| User | See an order confirmation at checkout | After completing checkout, the customer is redirected to an order confirmation page and also receives a confirmation email. | ![](images/t24)|
-| User | Receive an email confirmation after checking out | Customers receive an instant confirmation email as soon as their order is successfully placed. | ![](images/t25) |
-| User | Contact the store easily with any questions for quotations or reupholster | Users can easily contact the store by clicking the contact icon in the navbar, allowing them to send messages directly. | ![](images/t26)|
-| User | Quickly check if there are items in my shopping basket | On larger screens, the shopping bag icon displays the total price of items in the bag, while on smaller screens, a dedicated icon appears within the navbar toggler for easy access. | ![](images/27)<br>![](images/28) |
-| User | Checkout without needing to register for an account | Guests can check out without an account, with an option to sign up for future convenience. | ![](images/t29) |
+| User | Easily select and add to bag the correct product and quantity | Quantity selector buttons and a prominently placed "Add to Bag" button ensure easy selection of the correct product and quantity | ![](images/t18.png) |
+| User | See the items in my shopping bag before purchasing | Clicking the shopping bag icon directs the user to their shopping bag to view selected items. | ![](images/t19.png) |
+| User | View the total cost of my purchases before checking out | The total cost is shown in the cart basket icon on the navbar and on the checkout page. | ![](images/t20.png)<br>![](images/t21.png) |
+| User | Modify the quantity of items in my bag | Items in the shopping bag can be effortlessly updated or removed using the quantity update button on the checkout page | ![](images/t22.png) |
+| User | Easily enter my payment information | At checkout, Stripe provides a streamlined and secure payment entry box for a hassle-free transaction experience. | ![](images/23.png) |
+| User | See an order confirmation at checkout | After completing checkout, the customer is redirected to an order confirmation page and also receives a confirmation email. | ![](images/t24.png)|
+| User | Receive an email confirmation after checking out | Customers receive an instant confirmation email as soon as their order is successfully placed. | ![](images/t25.png) |
+| User | Contact the store easily with any questions for quotations or reupholster | Users can easily contact the store by clicking the contact icon in the navbar, allowing them to send messages directly. | ![](images/t26.png)|
+| User | Quickly check if there are items in my shopping basket | On larger screens, the shopping bag icon displays the total price of items in the bag, while on smaller screens, a dedicated icon appears within the navbar toggler for easy access. | ![](images/27.png)<br>![](images/28.png) |
+| User | Checkout without needing to register for an account | Guests can check out without an account, with an option to sign up for future convenience. | ![](images/t29.png) |
 
 ### Admin and Store Management
 
 | As a... | I want to be able to… | This is achieved by... | Image |
 |--------|------------------------|-------------------------|-------|
-| Store Owner/Staff Member | Add a product | New products can be easily added through the product management section. | ![](images/t30) |
-| Store Owner/Staff Member | Edit/Update a product | Products can be easily edited and updated in the product management section | ![](images/t32)<br>![](images/t31)  |
-| Store Owner/Staff Member | Delete a product | Products can be removed easily from the store using the product management section. | ![](images/t33) |
-| Store Owner/Staff Member | Add a Gallery Item | New Gallery items can be easily added through the Gallery management section. | ![](images/34)<br>![](images/35) |
+| Store Owner/Staff Member | Add a product | New products can be easily added through the product management section. | ![](images/t30.png) |
+| Store Owner/Staff Member | Edit/Update a product | Products can be easily edited and updated in the product management section | ![](images/t32)<br>![](images/t31.png)  |
+| Store Owner/Staff Member | Delete a product | Products can be removed easily from the store using the product management section. | ![](images/t33.png) |
+| Store Owner/Staff Member | Add a Gallery Item | New Gallery items can be easily added through the Gallery management section. | ![](images/34.png)<br>![](images/35.png) |
 | Store Owner/Staff Member | Edit/Update a Gallery Item | Gallery items can be easily edited and updated in the Gallery management section | ![](image-url) |
 | Store Owner/Staff Member | Delete a Gallery item | Gallery items can be removed easily from the store using the product management section. | ![](image-url)<br>![](image-url) |
 

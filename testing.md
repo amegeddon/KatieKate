@@ -152,9 +152,9 @@ Lighthouse in Chrome Developer Tools was utilised to assess the website's perfor
 | Store Owner/Staff Member | Add a product | New products can be easily added through the product management section. | ![](images/t30.png) |
 | Store Owner/Staff Member | Edit/Update a product | Products can be easily edited and updated in the product management section | ![](images/t32)<br>![](images/t31.png)  |
 | Store Owner/Staff Member | Delete a product | Products can be removed easily from the store using the product management section. | ![](images/t33.png) |
-| Store Owner/Staff Member | Add a Gallery Item | New Gallery items can be easily added through the Gallery management section. | ![](images/34.png)<br>![](images/35.png) |
-| Store Owner/Staff Member | Edit/Update a Gallery Item | Gallery items can be easily edited and updated in the Gallery management section | ![](image-url) |
-| Store Owner/Staff Member | Delete a Gallery item | Gallery items can be removed easily from the store using the product management section. | ![](image-url)<br>![](image-url) |
+| Store Owner/Staff Member | Add a Gallery Item | New Gallery items can be easily added through the Gallery management section. | ![](images/t36.png) |
+| Store Owner/Staff Member | Edit/Update a Gallery Item | Gallery items can be easily edited and updated in the Gallery management section | ![](images/t37.png)<br>![](images/t38.png) |
+| Store Owner/Staff Member | Delete a Gallery item | Gallery items can be removed easily from the store using the product management section. | ![](images/t39.png) |
 
 
 

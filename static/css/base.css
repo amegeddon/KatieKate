@@ -2,13 +2,23 @@ html {
     height: 100%;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
+
 body {
     background: url('/media/homepage.jpeg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    min-height: 100vh;
     color: #555;
     font-family: 'Lato', Arial, sans-serif;
 }
+
+form {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
 .overlay {
 	height: 100%;

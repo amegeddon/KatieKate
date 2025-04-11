@@ -558,4 +558,8 @@ input[name='q']::placeholder {
         white-space: normal;
         overflow-wrap: break-word;
     }
+    .overlay {
+        min-height: 100vh;
+        height: auto;
+    }
 }

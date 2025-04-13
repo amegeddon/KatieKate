@@ -148,17 +148,15 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
   - #### Desktop Wireframes
 
-![Website desktop wireframes](images/wireframes2.jpeg)
-![Website desktop wireframes](images/wireframes1.jpeg)
-![Website desktop wireframes](images/wireframe.JPG)
-![Website desktop wireframes](images/wireframe3.jpeg)
-![Website desktop wireframes](images/wireframe4.JPG)
+| ![](images/wireframes2.jpeg) | ![](images/wireframes1.jpeg) | ![](images/wireframe.JPG) |
+|:----------------------------:|:-----------------------------:|:--------------------------:|
+| ![](images/wireframe3.jpeg) |    |                            |
 
 
 
   - #### Tablet & Mobile Wireframes
 
-![Website tablet & mobile wireframes](image-url-here)
+![Website tablet & mobile wireframes](images/wireframe4.JPG)
 
   
 ### Database Schema

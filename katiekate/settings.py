@@ -27,8 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
 
 
 ALLOWED_HOSTS = [
@@ -247,5 +247,48 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+# Content Security Policy
+CONTENT_SECURITY_POLICY = {
+    'DIRECTIVES': {
+        'default-src': ("'self'",),
+        'script-src': (
+            "'self'",
+            'https://cdn.jsdelivr.net',
+            'https://js.stripe.com',
+            'https://kit.fontawesome.com',
+            'https://code.jquery.com',
+            "'unsafe-inline'",
+        ),
+        'style-src': (
+            "'self'",
+            'https://fonts.googleapis.com',
+            'https://cdn.jsdelivr.net',
+            "'unsafe-inline'",
+        ),
+        'img-src': ("'self'", 'data:', 'blob:'),
+        'connect-src': ("'self'",),
+        'font-src': ("'self'", 'https://fonts.gstatic.com'),
+        'object-src': ("'none'",),
+        'base-uri': ("'self'",),
+        'form-action': ("'self'",),
+        'frame-src': ('https://js.stripe.com',),
+        'report-uri': '/csp-report/',
+    }
+}
+
+
+# Security headers
+SECURE_HSTS_SECONDS = 63072000  # 2 years
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True
+SECURE_SSL_REDIRECT = True
+
+CONTENT_SECURITY_POLICY = {
+    'DIRECTIVES': {
+        'report-uri': '/csp-report/',
+        'script-src': ["'self'", "'unsafe-inline'"],
+    }
+}
 
 

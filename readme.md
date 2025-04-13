@@ -148,17 +148,24 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
   - #### Desktop Wireframes
 
-  <img src="" alt="Website desktop wireframes">
+![Website desktop wireframes](images/wireframes2.jpeg)
+![Website desktop wireframes](images/wireframes1.jpeg)
+![Website desktop wireframes](images/wireframe.JPG)
+![Website desktop wireframes](images/wireframe3.jpeg)
+![Website desktop wireframes](images/wireframe4.JPG)
+
 
 
   - #### Tablet & Mobile Wireframes
 
-  <img src="" alt="Website tablet & mobile wireframes">
+![Website tablet & mobile wireframes](image-url-here)
+
   
 ### Database Schema
 
 
-<img src="" alt="Database schema chart">
+![Database schema chart](images/database.JPG)
+
 
 
 [Back to top](#title)  
@@ -345,6 +352,7 @@ A search function allows customers to quickly find specific products, and clearl
 Given additional time and resources, some future features I would like to incorporate into this upholstery website include:
 
 - The ability to sign up and sign in using social accounts such as Google or Facebook for a quicker and more convenient registration process.
+- I ran out of time to get a reviews on products functioning - this is something that I will do outside of the course, 
 - A review restriction feature that ensures only customers who have purchased a product can leave a review for that item, ensuring authenticity and trust.
 - A workshop section where the store owner can update and display information about upcoming upholstery courses, allowing customers to easily see when the next session will be available.
 - An online upholstery calculator that allows customers to input their furniture dimensions and get an instant estimate for reupholstery services.

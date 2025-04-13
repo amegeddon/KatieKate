@@ -156,14 +156,16 @@ The wireframes for this project were hand-drawn, as I prefer to sketch my initia
 
   - #### Tablet & Mobile Wireframes
 
-![Website tablet & mobile wireframes](images/wireframe4.JPG)
-
+| ![](images/wireframe4.JPG) |  |  |
+|:----------------------------:|:-----------------------------:|:--------------------------:|
+|  |    |                            |
   
 ### Database Schema
 
 
-![Database schema chart](images/database.JPG)
-
+| ![](images/database.JPG) |  |  |
+|:----------------------------:|:-----------------------------:|:--------------------------:|
+|  |    |                            |
 
 
 [Back to top](#title)  

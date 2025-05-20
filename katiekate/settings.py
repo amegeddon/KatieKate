@@ -248,10 +248,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-# Content Security Policy
 CONTENT_SECURITY_POLICY = {
     'DIRECTIVES': {
         'default-src': ("'self'",),
+
         'script-src': (
             "'self'",
             'https://cdn.jsdelivr.net',
@@ -260,13 +260,37 @@ CONTENT_SECURITY_POLICY = {
             'https://code.jquery.com',
             "'unsafe-inline'",
         ),
+        'script-src-elem': (
+            "'self'",
+            'https://cdn.jsdelivr.net',
+            'https://js.stripe.com',
+            'https://kit.fontawesome.com',
+            'https://code.jquery.com',
+            "'unsafe-inline'",
+        ),
+
         'style-src': (
             "'self'",
             'https://fonts.googleapis.com',
             'https://cdn.jsdelivr.net',
             "'unsafe-inline'",
+            'https://katiekate1.s3.amazonaws.com',
         ),
-        'img-src': ("'self'", 'data:', 'blob:'),
+        'style-src-elem': (
+            "'self'",
+            'https://fonts.googleapis.com',
+            'https://cdn.jsdelivr.net',
+            "'unsafe-inline'",
+            'https://katiekate1.s3.amazonaws.com',
+        ),
+
+        'img-src': (
+            "'self'",
+            'data:',
+            'blob:',
+            'https://katiekate1.s3.amazonaws.com',
+        ),
+
         'connect-src': ("'self'",),
         'font-src': ("'self'", 'https://fonts.gstatic.com'),
         'object-src': ("'none'",),
@@ -276,6 +300,7 @@ CONTENT_SECURITY_POLICY = {
         'report-uri': '/csp-report/',
     }
 }
+
 
 
 # Security headers

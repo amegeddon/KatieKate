@@ -27,7 +27,7 @@ form {
 	left: 0;
 	position: absolute;
 	background:#FAF9F6;
-	z-index: -1;
+	z-index: 1;
 }
 
 .hero {

@@ -21,13 +21,14 @@ form {
   }
 
 .overlay {
-	height: 100%;
-	width: 100%;
+    position: fixed;
 	top: 0;
 	left: 0;
-	position: absolute;
-	background:#FAF9F6;
+	width: 100%;
+	height: 100%;
+	background: #FAF9F6;
 	z-index: 1;
+	pointer-events: none;
 }
 
 .hero {
